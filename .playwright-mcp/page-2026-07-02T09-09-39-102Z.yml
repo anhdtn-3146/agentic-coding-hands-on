@@ -1,0 +1,31 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - banner [ref=f4e3]:
+      - img "Sun* Annual Awards 2025" [ref=f4e4]
+      - generic [ref=f4e5]:
+        - button "VN" [expanded] [active] [ref=f4e6] [cursor=pointer]:
+          - generic [ref=f4e7]:
+            - img [ref=f4e8]
+            - generic [ref=f4e9]: VN
+          - img [ref=f4e10]
+        - listbox "Language" [ref=f4e31]:
+          - listitem [ref=f4e32]:
+            - option "VN" [selected] [ref=f4e33] [cursor=pointer]:
+              - img [ref=f4e34]
+              - text: VN
+          - listitem [ref=f4e35]:
+            - option "EN" [ref=f4e36] [cursor=pointer]
+    - main [ref=f4e11]:
+      - generic [ref=f4e13]:
+        - img "ROOT FURTHER" [ref=f4e14]
+        - paragraph [ref=f4e15]:
+          - text: Bắt đầu hành trình của bạn cùng SAA 2025.
+          - text: Đăng nhập để khám phá!
+        - button "LOGIN With Google" [ref=f4e16]:
+          - generic [ref=f4e17]: LOGIN With Google
+          - img [ref=f4e18]
+    - contentinfo [ref=f4e19]:
+      - paragraph [ref=f4e20]: Bản quyền thuộc về Sun* © 2025
+  - button "Open Next.js Dev Tools" [ref=f4e26] [cursor=pointer]:
+    - img [ref=f4e27]
+  - alert [ref=f4e30]

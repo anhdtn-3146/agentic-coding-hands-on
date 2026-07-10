@@ -1,0 +1,190 @@
+- generic [ref=f16e1]:
+  - generic [ref=f16e2]:
+    - banner [ref=f16e3]:
+      - generic [ref=f16e4]:
+        - generic [ref=f16e5]:
+          - link "Sun* Annual Awards 2025 home" [ref=f16e6] [cursor=pointer]:
+            - /url: /
+            - img "Sun* Annual Awards 2025" [ref=f16e7]
+          - navigation [ref=f16e8]:
+            - link "SAA 2025 について" [ref=f16e9] [cursor=pointer]:
+              - /url: /
+            - link "アワード情報" [ref=f16e10] [cursor=pointer]:
+              - /url: /he-thong-giai
+            - link "Sun* Kudos" [ref=f16e11] [cursor=pointer]:
+              - /url: /sun-kudos
+        - generic [ref=f16e12]:
+          - button "Notifications" [ref=f16e14]:
+            - img [ref=f16e15]
+          - generic [ref=f16e18]:
+            - button "Change language" [expanded] [active] [ref=f16e19] [cursor=pointer]:
+              - generic [ref=f16e22]: JA
+              - img [ref=f16e23]
+            - listbox "Language" [ref=f16e268]:
+              - listitem [ref=f16e269]:
+                - option "VN" [ref=f16e270] [cursor=pointer]:
+                  - img [ref=f16e271]
+                  - text: VN
+              - listitem [ref=f16e272]:
+                - option "EN" [ref=f16e273] [cursor=pointer]
+              - listitem [ref=f16e274]:
+                - option "JA" [selected] [ref=f16e275] [cursor=pointer]
+          - button "User profile" [ref=f16e25]:
+            - img [ref=f16e26]
+    - main [ref=f16e28]:
+      - generic [ref=f16e29]:
+        - img "Keyvisual Sun* Annual Award 2025" [ref=f16e30]
+        - generic [ref=f16e31]:
+          - img "ROOT FURTHER" [ref=f16e32]
+          - generic [ref=f16e33]:
+            - paragraph [ref=f16e34]: Sun* Annual Awards 2025
+            - heading "SAA 2025 表彰制度" [level=1] [ref=f16e36]
+      - generic [ref=f16e37]:
+        - navigation [ref=f16e38]:
+          - link "Top Talent" [ref=f16e39] [cursor=pointer]:
+            - /url: "#top-talent"
+            - generic [ref=f16e41]: Top Talent
+          - link "Top Project" [ref=f16e42] [cursor=pointer]:
+            - /url: "#top-project"
+            - generic [ref=f16e44]: Top Project
+          - link "Top Project Leader" [ref=f16e45] [cursor=pointer]:
+            - /url: "#top-project-leader"
+            - generic [ref=f16e47]: Top Project Leader
+          - link "Best Manager" [ref=f16e48] [cursor=pointer]:
+            - /url: "#best-manager"
+            - generic [ref=f16e50]: Best Manager
+          - link "Signature 2025 - Creator" [ref=f16e51] [cursor=pointer]:
+            - /url: "#signature-2025"
+            - generic [ref=f16e53]: Signature 2025 - Creator
+          - link "MVP" [ref=f16e54] [cursor=pointer]:
+            - /url: "#mvp"
+            - generic [ref=f16e56]: MVP
+        - generic [ref=f16e57]:
+          - generic [ref=f16e59]:
+            - img "Top Talent" [ref=f16e62]
+            - generic [ref=f16e63]:
+              - generic [ref=f16e64]:
+                - heading "Top Talent" [level=3] [ref=f16e67]
+                - paragraph [ref=f16e68]: Top Talent賞は、総合的に卓越した個人を称える賞です。確かな専門能力と卓越した業務パフォーマンスを発揮し続け、常に期待を超える価値を提供し、顧客やチームメンバーから高い評価を得ている人材が対象となります。組織から任されたあらゆる業務を進んで引き受ける姿勢を持ち、常にインスピレーションの源として、チーム全体のモチベーションを高め、前向きな影響を与え続けます。
+              - generic [ref=f16e70]:
+                - generic [ref=f16e72]: "受賞人数:"
+                - generic [ref=f16e73]:
+                  - generic [ref=f16e74]: "10"
+                  - generic [ref=f16e75]: 個人
+              - generic [ref=f16e78]:
+                - generic [ref=f16e81]: "賞金額:"
+                - generic [ref=f16e82]: 7.000.000 VNĐ
+                - generic [ref=f16e83]: 各賞につき
+          - generic [ref=f16e86]:
+            - img "Top Project" [ref=f16e89]
+            - generic [ref=f16e90]:
+              - generic [ref=f16e91]:
+                - heading "Top Project" [level=3] [ref=f16e94]
+                - paragraph [ref=f16e95]: Top Project賞は、期待を超える事業成果、最適な運営効率、そして献身的な仕事への姿勢を体現した優れたプロジェクトチームを称える賞です。これらのプロジェクトは高い技術的複雑性を持ち、リソースとコストの最適化に優れ、顧客にとって価値あるアイデアを提案し、卓越した利益を生み出し、顧客から高い評価を得ています。メンバーは社内の開発基準を厳格に遵守し、卓越性とプロフェッショナリズムの模範を築いています。
+              - generic [ref=f16e97]:
+                - generic [ref=f16e99]: "受賞人数:"
+                - generic [ref=f16e100]:
+                  - generic [ref=f16e101]: "02"
+                  - generic [ref=f16e102]: チーム
+              - generic [ref=f16e105]:
+                - generic [ref=f16e108]: "賞金額:"
+                - generic [ref=f16e109]: 15.000.000 VNĐ
+                - generic [ref=f16e110]: 各賞につき
+          - generic [ref=f16e113]:
+            - img "Top Project Leader" [ref=f16e116]
+            - generic [ref=f16e117]:
+              - generic [ref=f16e118]:
+                - heading "Top Project Leader" [level=3] [ref=f16e121]
+                - paragraph [ref=f16e122]: Top Project Leader賞は、確かなマネジメント能力、強い鼓舞力、そしてあらゆる課題や状況において「Aim High – Be Agile」の思考を体現する優れたプロジェクトマネージャーを称える賞です。彼らのリーダーシップの下、メンバーは共に困難を乗り越え、目標を達成するだけでなく、情熱の炎とWasshoi精神を持ち続け、より洗練され幸せな自分へと成長していきます。
+              - generic [ref=f16e124]:
+                - generic [ref=f16e126]: "受賞人数:"
+                - generic [ref=f16e127]:
+                  - generic [ref=f16e128]: "03"
+                  - generic [ref=f16e129]: 個人
+              - generic [ref=f16e132]:
+                - generic [ref=f16e135]: "賞金額:"
+                - generic [ref=f16e136]: 7.000.000 VNĐ
+                - generic [ref=f16e137]: 各賞につき
+          - generic [ref=f16e140]:
+            - img "Best Manager" [ref=f16e143]
+            - generic [ref=f16e144]:
+              - generic [ref=f16e145]:
+                - heading "Best Manager" [level=3] [ref=f16e148]
+                - paragraph [ref=f16e149]: Best Manager賞は、模範的なリーダーを称える賞です。チームを率いて期待を超える成果を生み出し、事業効率と組織の持続可能な成長に顕著な影響を与えた人材が対象となります。彼らのリーダーシップの下、チームはマルチタスク能力、効果的な連携、そしてデジタル時代における柔軟なテクノロジー活用の思考によって、あらゆる目標を常に達成し使いこなしています。彼らはチームに自信とエネルギーを吹き込み、革新的な変化を受け入れ、さらには自ら牽引する準備を整えさせます。
+              - generic [ref=f16e151]:
+                - generic [ref=f16e153]: "受賞人数:"
+                - generic [ref=f16e154]:
+                  - generic [ref=f16e155]: "01"
+                  - generic [ref=f16e156]: 個人
+              - generic [ref=f16e159]:
+                - generic [ref=f16e162]: "賞金額:"
+                - generic [ref=f16e163]: 10.000.000 VNĐ
+          - generic [ref=f16e166]:
+            - img "Signature 2025 - Creator" [ref=f16e169]
+            - generic [ref=f16e170]:
+              - generic [ref=f16e171]:
+                - heading "Signature 2025 - Creator" [level=3] [ref=f16e174]
+                - paragraph [ref=f16e175]: Signature賞は、Sun*が各時代に目指す特有の精神を体現する個人またはチームを称える賞です。2025年のSignature賞は「Creator」を称えます — 主体的で鋭敏な思考を持ち、常に課題の中にチャンスを見出し、行動において先陣を切る個人・チームです。彼らは問題に敏感で、迅速に課題を認識し、プロジェクト、顧客、組織に明確な価値をもたらす実践的な解決策を提示します。Sun*ならではの創造的思考と「Creator」精神を持ち、変化に前向きに対応するだけでなく、自ら改善を生み出し、Sun*の人材が価値を創造する新たな基準を築く一助となります。
+              - generic [ref=f16e177]:
+                - generic [ref=f16e179]: "受賞人数:"
+                - generic [ref=f16e180]:
+                  - generic [ref=f16e181]: "01"
+                  - generic [ref=f16e182]: 個人またはチーム
+              - generic [ref=f16e184]:
+                - generic [ref=f16e185]:
+                  - generic [ref=f16e188]: "賞金額:"
+                  - generic [ref=f16e189]: 5.000.000 VNĐ
+                  - generic [ref=f16e190]: 個人賞の場合
+                - generic [ref=f16e191]:
+                  - generic [ref=f16e193]: または
+                  - generic [ref=f16e197]: "賞金額:"
+                  - generic [ref=f16e198]: 8.000.000 VNĐ
+                  - generic [ref=f16e199]: 団体賞の場合
+          - generic [ref=f16e202]:
+            - img "MVP (Most Valuable Person)" [ref=f16e205]
+            - generic [ref=f16e206]:
+              - generic [ref=f16e207]:
+                - heading "MVP (Most Valuable Person)" [level=3] [ref=f16e210]
+                - paragraph [ref=f16e211]: MVP賞は、その年最も優れた個人を称える賞であり、Sun*全体を代表する模範的存在です。卓越した能力、揺るぎない献身精神、そして広範な影響力を発揮し、この一年のSun*の歩みに強い足跡を残した人材が対象となります。パフォーマンスや業務成果で際立つだけでなく、その思考、行動、そしてチームへの前向きな影響を通じて、インスピレーションを広げる存在でもあります。MVPは優れたSun*人材の資質を余すところなく備えると同時に、Sun*の人材と精神を体現するロールモデルとなり、チームを新たな高みへと導くという大きな責任を担います。
+              - generic [ref=f16e213]:
+                - generic [ref=f16e215]: "受賞人数:"
+                - generic [ref=f16e216]:
+                  - generic [ref=f16e217]: "01"
+                  - generic [ref=f16e218]: 個人
+              - generic [ref=f16e221]:
+                - generic [ref=f16e224]: "賞金額:"
+                - generic [ref=f16e225]: 15.000.000 VNĐ
+      - generic [ref=f16e227]:
+        - generic [ref=f16e228]:
+          - generic [ref=f16e229]:
+            - paragraph [ref=f16e230]: 表彰ムーブメント
+            - paragraph [ref=f16e231]: Sun* Kudos
+            - paragraph [ref=f16e232]: SAA 2025 の新機能 同僚への感謝と称賛の活動が、全 Sunner を対象に初めて実施されます。2025年11月に開始され、Sun* のメンバーが主催者の公開するシステム上で同僚への感謝や称賛の言葉を共有することを奨励します。これらは受賞者選定において Heads 評議会の参考資料となります。
+          - link "詳細" [ref=f16e234] [cursor=pointer]:
+            - /url: /sun-kudos
+            - generic [ref=f16e235]: 詳細
+        - img "Sun* Kudos" [ref=f16e238]
+    - contentinfo [ref=f16e239]:
+      - generic [ref=f16e240]:
+        - generic [ref=f16e241]:
+          - link "Sun* Annual Awards 2025 home" [ref=f16e242] [cursor=pointer]:
+            - /url: "#about"
+            - img "Sun* Annual Awards 2025" [ref=f16e243]
+          - navigation [ref=f16e244]:
+            - link "SAA 2025 について" [ref=f16e245] [cursor=pointer]:
+              - /url: "#about"
+            - link "アワード情報" [ref=f16e246] [cursor=pointer]:
+              - /url: "#awards"
+            - link "Sun* Kudos" [ref=f16e247] [cursor=pointer]:
+              - /url: "#kudos"
+            - link "共通基準" [ref=f16e248] [cursor=pointer]:
+              - /url: "#about"
+        - paragraph [ref=f16e249]: Copyright © 2025 Sun*
+    - button "/ SAA ルール" [ref=f16e251]:
+      - generic [ref=f16e252]:
+        - img [ref=f16e253]
+        - generic [ref=f16e255]: /
+      - img "SAA ルール" [ref=f16e257]
+  - button "Open Next.js Dev Tools" [ref=f16e263] [cursor=pointer]:
+    - img [ref=f16e264]
+  - alert [ref=f16e267]

@@ -1,0 +1,153 @@
+- generic [active] [ref=f15e1]:
+  - generic [ref=f15e2]:
+    - banner [ref=f15e3]:
+      - generic [ref=f15e4]:
+        - generic [ref=f15e5]:
+          - link "Sun* Annual Awards 2025 home" [ref=f15e6] [cursor=pointer]:
+            - /url: /
+            - img "Sun* Annual Awards 2025" [ref=f15e7]
+          - navigation [ref=f15e8]:
+            - link "SAA 2025 について" [ref=f15e9] [cursor=pointer]:
+              - /url: /
+            - link "アワード情報" [ref=f15e10] [cursor=pointer]:
+              - /url: /he-thong-giai
+            - link "Sun* Kudos" [ref=f15e11] [cursor=pointer]:
+              - /url: /sun-kudos
+        - generic [ref=f15e12]:
+          - button "Notifications" [ref=f15e14]:
+            - img [ref=f15e15]
+          - button "Change language" [ref=f15e19] [cursor=pointer]:
+            - generic [ref=f15e22]: JA
+            - img [ref=f15e23]
+          - button "User profile" [ref=f15e25]:
+            - img [ref=f15e26]
+    - main [ref=f15e28]:
+      - generic [ref=f15e30]:
+        - img
+        - generic [ref=f15e31]:
+          - generic [ref=f15e32]:
+            - img "ROOT FURTHER" [ref=f15e33]
+            - generic [ref=f15e34]:
+              - generic [ref=f15e35]:
+                - paragraph [ref=f15e36]: 近日公開
+                - generic [ref=f15e37]:
+                  - generic [ref=f15e38]:
+                    - generic [ref=f15e39]:
+                      - generic [ref=f15e42]: "0"
+                      - generic [ref=f15e45]: "0"
+                    - paragraph [ref=f15e46]: 日
+                  - generic [ref=f15e47]:
+                    - generic [ref=f15e48]:
+                      - generic [ref=f15e51]: "0"
+                      - generic [ref=f15e54]: "0"
+                    - paragraph [ref=f15e55]: 時間
+                  - generic [ref=f15e56]:
+                    - generic [ref=f15e57]:
+                      - generic [ref=f15e60]: "0"
+                      - generic [ref=f15e63]: "0"
+                    - paragraph [ref=f15e64]: 分
+              - generic [ref=f15e65]:
+                - generic [ref=f15e66]:
+                  - paragraph [ref=f15e67]:
+                    - generic [ref=f15e68]: "日時:"
+                    - text: 26/12/2026
+                  - paragraph [ref=f15e69]:
+                    - generic [ref=f15e70]: "会場:"
+                    - text: Âu Cơ Art Center
+                - paragraph [ref=f15e71]: ライブストリームで生中継
+            - generic [ref=f15e72]:
+              - link "ABOUT AWARDS" [ref=f15e73] [cursor=pointer]:
+                - /url: "#awards"
+                - text: ABOUT AWARDS
+              - link "ABOUT KUDOS" [ref=f15e75] [cursor=pointer]:
+                - /url: "#kudos"
+                - text: ABOUT KUDOS
+          - generic [ref=f15e77]:
+            - generic [ref=f15e78]:
+              - img "Root" [ref=f15e80]
+              - img "Further" [ref=f15e82]
+            - paragraph [ref=f15e83]: AI時代の目まぐるしい変化と高まり続ける顧客の期待を前に、Sun*は能力の多様化という戦略を選びました。自分たちの領域で卓越した存在を目指すだけでなく、さらに高い目標へ——すべてのSunnerが「プロブレムソルバー」となり、プロジェクト、顧客、そして社会のあらゆる課題を解決できる専門家であることを目指しています。 多様な能力、柔軟な成長力、そしてAI時代を突破するために深く掘り下げる精神からインスピレーションを得て、「Root Further」はSun* Annual Awards 2025の公式テーマに選ばれました。 表面的な意味を超えて、「Root Further」とは、私たちがより遠くへ、より深く根を張り続ける旅そのものです。隠された「地層」に触れながら、Sun*の人々が持ち続ける価値創造への情熱を存続させ、高め、育んでいく旅です。土の奥深くへと伸び続ける根のように、幾重にも重なる「堆積層」を力強くくぐり抜けて最も純粋な養分を吸収するように、Sun*の人々もこの時代と市場の試練から養分を「吸収」し、日々自らを刷新し、能力を広げ、AI時代という全く新しく複雑で予測困難な、しかし無限の可能性とチャンスに満ちた「地層」へと力強く「根を下ろして」います。
+            - paragraph [ref=f15e84]: 「深く根を張った木は嵐を恐れない」 (英語のことわざ)
+            - paragraph [ref=f15e85]: 嵐を前にして、十分に強い根を持つ木だけが立ち続けることができます。多様な能力に自信を持ち、挑戦を創造し受け入れる準備ができ、変化を自ら制する個人で構成された組織こそが、変動の中でも揺るがず、あらゆる優位性を活かし、時代の課題を乗り越えられる組織です。「Root Further」は単に組織の成長における新たな章の名前にとどまらず、私たち一人ひとりへの応援でもあります——自分自身を信じる勇気を持ち、深く掘り下げてあらゆる可能性を切り拓く勇気を持ち、限界を打ち破る勇気を持ち、最も多才で卓越した自分になる勇気を持つようにと。AI時代において、能力の多様性と時代の力を活かすことこそが、永続するための必須条件だからです。 テクノロジー業界と現代市場の「地中」深くに、まだどれほどの謎めいた「地層」が眠っているのか、誰にも分かりません。ただ確かなのは、「Root Further」が根源の精神となったとき、私たちは前進する道のどんな未知の領域を前にしても、恐れではなくむしろ高揚感を覚えるということです。なぜなら、その果てしない領域の中にこそ、数多くの奇跡と飛躍のチャンスが私たちを待っていると、私たちは信じているからです。
+      - generic [ref=f15e87]:
+        - generic [ref=f15e88]:
+          - paragraph [ref=f15e89]: Sun* Annual Awards 2025
+          - heading "表彰制度" [level=2] [ref=f15e92]
+        - generic [ref=f15e93]:
+          - generic [ref=f15e94]:
+            - link "Top Talent Top Talent あらゆる面で卓越した個人を称えます 詳細" [ref=f15e95] [cursor=pointer]:
+              - /url: "#awards"
+              - img "Top Talent" [ref=f15e98]
+              - generic [ref=f15e99]:
+                - heading "Top Talent" [level=3] [ref=f15e100]
+                - paragraph [ref=f15e101]: あらゆる面で卓越した個人を称えます
+                - generic [ref=f15e103]: 詳細
+            - link "Top Project Top Project あらゆる面で卓越し、突出した売上を上げたプロジェクトを称えます 詳細" [ref=f15e105] [cursor=pointer]:
+              - /url: "#awards"
+              - img "Top Project" [ref=f15e108]
+              - generic [ref=f15e109]:
+                - heading "Top Project" [level=3] [ref=f15e110]
+                - paragraph [ref=f15e111]: あらゆる面で卓越し、突出した売上を上げたプロジェクトを称えます
+                - generic [ref=f15e113]: 詳細
+            - link "Top Project Leader Top Project Leader 情熱を注ぎ、プロジェクトの飛躍を導いたマネージャーを称えます 詳細" [ref=f15e115] [cursor=pointer]:
+              - /url: "#awards"
+              - img "Top Project Leader" [ref=f15e118]
+              - generic [ref=f15e119]:
+                - heading "Top Project Leader" [level=3] [ref=f15e120]
+                - paragraph [ref=f15e121]: 情熱を注ぎ、プロジェクトの飛躍を導いたマネージャーを称えます
+                - generic [ref=f15e123]: 詳細
+          - generic [ref=f15e125]:
+            - link "Best Manager Best Manager 高いマネジメント能力でチームを導いたマネージャーを称えます 詳細" [ref=f15e126] [cursor=pointer]:
+              - /url: "#awards"
+              - img "Best Manager" [ref=f15e129]
+              - generic [ref=f15e130]:
+                - heading "Best Manager" [level=3] [ref=f15e131]
+                - paragraph [ref=f15e132]: 高いマネジメント能力でチームを導いたマネージャーを称えます
+                - generic [ref=f15e134]: 詳細
+            - link "Signature 2025 - Creator Signature 2025 - Creator 高いマネジメント能力でチームを導いたマネージャーを称えます 詳細" [ref=f15e136] [cursor=pointer]:
+              - /url: "#awards"
+              - img "Signature 2025 - Creator" [ref=f15e139]
+              - generic [ref=f15e140]:
+                - heading "Signature 2025 - Creator" [level=3] [ref=f15e141]
+                - paragraph [ref=f15e142]: 高いマネジメント能力でチームを導いたマネージャーを称えます
+                - generic [ref=f15e144]: 詳細
+            - link "MVP (Most Valuable Person) MVP (Most Valuable Person) 高いマネジメント能力でチームを導いたマネージャーを称えます 詳細" [ref=f15e146] [cursor=pointer]:
+              - /url: "#awards"
+              - img "MVP (Most Valuable Person)" [ref=f15e149]
+              - generic [ref=f15e150]:
+                - heading "MVP (Most Valuable Person)" [level=3] [ref=f15e151]
+                - paragraph [ref=f15e152]: 高いマネジメント能力でチームを導いたマネージャーを称えます
+                - generic [ref=f15e154]: 詳細
+      - generic [ref=f15e158]:
+        - generic [ref=f15e159]:
+          - generic [ref=f15e160]:
+            - paragraph [ref=f15e161]: 表彰ムーブメント
+            - paragraph [ref=f15e162]: Sun* Kudos
+            - paragraph [ref=f15e163]: SAA 2025 の新機能 同僚への感謝と称賛の活動が、全 Sunner を対象に初めて実施されます。2025年11月に開始され、Sun* のメンバーが主催者の公開するシステム上で同僚への感謝や称賛の言葉を共有することを奨励します。これらは受賞者選定において Heads 評議会の参考資料となります。
+          - link "詳細" [ref=f15e165] [cursor=pointer]:
+            - /url: /sun-kudos
+            - generic [ref=f15e166]: 詳細
+        - img "Sun* Kudos" [ref=f15e169]
+    - contentinfo [ref=f15e170]:
+      - generic [ref=f15e171]:
+        - generic [ref=f15e172]:
+          - link "Sun* Annual Awards 2025 home" [ref=f15e173] [cursor=pointer]:
+            - /url: "#about"
+            - img "Sun* Annual Awards 2025" [ref=f15e174]
+          - navigation [ref=f15e175]:
+            - link "SAA 2025 について" [ref=f15e176] [cursor=pointer]:
+              - /url: "#about"
+            - link "アワード情報" [ref=f15e177] [cursor=pointer]:
+              - /url: "#awards"
+            - link "Sun* Kudos" [ref=f15e178] [cursor=pointer]:
+              - /url: "#kudos"
+            - link "共通基準" [ref=f15e179] [cursor=pointer]:
+              - /url: "#about"
+        - paragraph [ref=f15e180]: Copyright © 2025 Sun*
+    - button "/ SAA ルール" [ref=f15e182]:
+      - generic [ref=f15e183]:
+        - img [ref=f15e184]
+        - generic [ref=f15e186]: /
+      - img "SAA ルール" [ref=f15e188]
+  - button "Open Next.js Dev Tools" [ref=f15e194] [cursor=pointer]:
+    - img [ref=f15e195]

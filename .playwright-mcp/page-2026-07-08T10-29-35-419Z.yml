@@ -1,0 +1,179 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e2]:
+    - banner [ref=f12e3]:
+      - generic [ref=f12e4]:
+        - generic [ref=f12e5]:
+          - link "Sun* Annual Awards 2025 home" [ref=f12e6] [cursor=pointer]:
+            - /url: /
+            - img "Sun* Annual Awards 2025" [ref=f12e7]
+          - navigation [ref=f12e8]:
+            - link "About SAA 2025" [ref=f12e9] [cursor=pointer]:
+              - /url: /
+            - link "Award Information" [ref=f12e10] [cursor=pointer]:
+              - /url: /he-thong-giai
+            - link "Sun* Kudos" [ref=f12e11] [cursor=pointer]:
+              - /url: /sun-kudos
+        - generic [ref=f12e12]:
+          - button "Notifications" [ref=f12e14]:
+            - img [ref=f12e15]
+          - button "Change language" [ref=f12e19] [cursor=pointer]:
+            - generic [ref=f12e22]: EN
+            - img [ref=f12e23]
+          - button "User profile" [ref=f12e25]:
+            - img [ref=f12e26]
+    - main [ref=f12e28]:
+      - generic [ref=f12e29]:
+        - img "Keyvisual Sun* Annual Award 2025" [ref=f12e30]
+        - generic [ref=f12e31]:
+          - img "ROOT FURTHER" [ref=f12e32]
+          - generic [ref=f12e33]:
+            - paragraph [ref=f12e34]: Sun* Annual Awards 2025
+            - heading "SAA 2025 Awards System" [level=1] [ref=f12e36]
+      - generic [ref=f12e37]:
+        - navigation [ref=f12e38]:
+          - link "Top Talent" [ref=f12e39] [cursor=pointer]:
+            - /url: "#top-talent"
+            - generic [ref=f12e41]: Top Talent
+          - link "Top Project" [ref=f12e42] [cursor=pointer]:
+            - /url: "#top-project"
+            - generic [ref=f12e44]: Top Project
+          - link "Top Project Leader" [ref=f12e45] [cursor=pointer]:
+            - /url: "#top-project-leader"
+            - generic [ref=f12e47]: Top Project Leader
+          - link "Best Manager" [ref=f12e48] [cursor=pointer]:
+            - /url: "#best-manager"
+            - generic [ref=f12e50]: Best Manager
+          - link "Signature 2025 - Creator" [ref=f12e51] [cursor=pointer]:
+            - /url: "#signature-2025"
+            - generic [ref=f12e53]: Signature 2025 - Creator
+          - link "MVP" [ref=f12e54] [cursor=pointer]:
+            - /url: "#mvp"
+            - generic [ref=f12e56]: MVP
+        - generic [ref=f12e57]:
+          - generic [ref=f12e59]:
+            - img "Top Talent" [ref=f12e62]
+            - generic [ref=f12e63]:
+              - generic [ref=f12e64]:
+                - heading "Top Talent" [level=3] [ref=f12e67]
+                - paragraph [ref=f12e68]: The Top Talent award honors all-round outstanding individuals — those who continuously demonstrate solid professional expertise and exceptional work performance, consistently deliver value beyond expectations, and are highly regarded by both clients and teammates. With a readiness to take on any task assigned by the organization, they are always a source of inspiration, driving motivation and making a positive impact on the whole team.
+              - generic [ref=f12e70]:
+                - generic [ref=f12e72]: "Number of awards:"
+                - generic [ref=f12e73]:
+                  - generic [ref=f12e74]: "10"
+                  - generic [ref=f12e75]: Individual
+              - generic [ref=f12e78]:
+                - generic [ref=f12e81]: "Prize value:"
+                - generic [ref=f12e82]: 7.000.000 VNĐ
+                - generic [ref=f12e83]: per award
+          - generic [ref=f12e86]:
+            - img "Top Project" [ref=f12e89]
+            - generic [ref=f12e90]:
+              - generic [ref=f12e91]:
+                - heading "Top Project" [level=3] [ref=f12e94]
+                - paragraph [ref=f12e95]: The Top Project award honors outstanding project teams that deliver business results beyond expectations, optimal operational efficiency, and a dedicated working spirit. These are projects with high technical complexity and excellent resource and cost optimization, that propose valuable ideas for clients, generate outstanding profit, and receive positive feedback from clients. Members strictly adhere to internal development standards throughout the project, setting a model of excellence and professionalism.
+              - generic [ref=f12e97]:
+                - generic [ref=f12e99]: "Number of awards:"
+                - generic [ref=f12e100]:
+                  - generic [ref=f12e101]: "02"
+                  - generic [ref=f12e102]: Team
+              - generic [ref=f12e105]:
+                - generic [ref=f12e108]: "Prize value:"
+                - generic [ref=f12e109]: 15.000.000 VNĐ
+                - generic [ref=f12e110]: per award
+          - generic [ref=f12e113]:
+            - img "Top Project Leader" [ref=f12e116]
+            - generic [ref=f12e117]:
+              - generic [ref=f12e118]:
+                - heading "Top Project Leader" [level=3] [ref=f12e121]
+                - paragraph [ref=f12e122]: The Top Project Leader award honors outstanding project managers — those who combine solid management capability, a strong ability to inspire, and an "Aim High – Be Agile" mindset in every challenge and context. Under their leadership, team members not only overcome challenges and achieve set goals together, but also keep the flame of enthusiasm and the Wasshoi spirit alive, growing into a finer, happier version of themselves.
+              - generic [ref=f12e124]:
+                - generic [ref=f12e126]: "Number of awards:"
+                - generic [ref=f12e127]:
+                  - generic [ref=f12e128]: "03"
+                  - generic [ref=f12e129]: Individual
+              - generic [ref=f12e132]:
+                - generic [ref=f12e135]: "Prize value:"
+                - generic [ref=f12e136]: 7.000.000 VNĐ
+                - generic [ref=f12e137]: per award
+          - generic [ref=f12e140]:
+            - img "Best Manager" [ref=f12e143]
+            - generic [ref=f12e144]:
+              - generic [ref=f12e145]:
+                - heading "Best Manager" [level=3] [ref=f12e148]
+                - paragraph [ref=f12e149]: The Best Manager award honors exemplary leaders — those who have led their teams to deliver results beyond expectations, making a remarkable impact on business efficiency and the organization's sustainable growth. Under their leadership, teams consistently conquer and master every goal through multitasking capability, effective collaboration, and an agile mindset toward technology adoption in the digital era. They inspire their teams to become confident and energetic, ready to embrace — and even lead — revolutionary change.
+              - generic [ref=f12e151]:
+                - generic [ref=f12e153]: "Number of awards:"
+                - generic [ref=f12e154]:
+                  - generic [ref=f12e155]: "01"
+                  - generic [ref=f12e156]: Individual
+              - generic [ref=f12e159]:
+                - generic [ref=f12e162]: "Prize value:"
+                - generic [ref=f12e163]: 10.000.000 VNĐ
+          - generic [ref=f12e166]:
+            - img "Signature 2025 - Creator" [ref=f12e169]
+            - generic [ref=f12e170]:
+              - generic [ref=f12e171]:
+                - heading "Signature 2025 - Creator" [level=3] [ref=f12e174]
+                - paragraph [ref=f12e175]: The Signature award honors individuals or teams who embody the distinctive spirit Sun* aims for in each era. In 2025, the Signature award honors the Creator — individuals/teams with a proactive, perceptive mindset who always see opportunity in challenges and take the lead in action. They are quick to spot problems and deliver practical solutions that bring clear value to projects, clients, or the organization. With a creative mindset and the "Creator" spirit distinctive to Sun*, they not only respond positively to change but also proactively drive improvements, helping shape new standards for how Sun* people create value.
+              - generic [ref=f12e177]:
+                - generic [ref=f12e179]: "Number of awards:"
+                - generic [ref=f12e180]:
+                  - generic [ref=f12e181]: "01"
+                  - generic [ref=f12e182]: Individual or team
+              - generic [ref=f12e184]:
+                - generic [ref=f12e185]:
+                  - generic [ref=f12e188]: "Prize value:"
+                  - generic [ref=f12e189]: 5.000.000 VNĐ
+                  - generic [ref=f12e190]: for the individual award
+                - generic [ref=f12e191]:
+                  - generic [ref=f12e193]: Or
+                  - generic [ref=f12e197]: "Prize value:"
+                  - generic [ref=f12e198]: 8.000.000 VNĐ
+                  - generic [ref=f12e199]: for the team award
+          - generic [ref=f12e202]:
+            - img "MVP (Most Valuable Person)" [ref=f12e205]
+            - generic [ref=f12e206]:
+              - generic [ref=f12e207]:
+                - heading "MVP (Most Valuable Person)" [level=3] [ref=f12e210]
+                - paragraph [ref=f12e211]: "The MVP award honors the most outstanding individual of the year — the exemplary face representing the entire Sun* collective. They are people who have demonstrated exceptional capability, unwavering dedication, and far-reaching influence, leaving a strong mark on Sun*'s journey over the past year. Not only outstanding in performance and work results, they are also a spreading source of inspiration — through their thinking, actions, and positive influence on the team. The MVP embodies the full qualities of an outstanding Sun* person, while carrying a great responsibility: to become a role model representing Sun*'s people and spirit, helping lead the team to new heights."
+              - generic [ref=f12e213]:
+                - generic [ref=f12e215]: "Number of awards:"
+                - generic [ref=f12e216]:
+                  - generic [ref=f12e217]: "01"
+                  - generic [ref=f12e218]: Individual
+              - generic [ref=f12e221]:
+                - generic [ref=f12e224]: "Prize value:"
+                - generic [ref=f12e225]: 15.000.000 VNĐ
+      - generic [ref=f12e227]:
+        - generic [ref=f12e228]:
+          - generic [ref=f12e229]:
+            - paragraph [ref=f12e230]: Recognition Movement
+            - paragraph [ref=f12e231]: Sun* Kudos
+            - paragraph [ref=f12e232]: WHAT'S NEW IN SAA 2025 A peer recognition and appreciation activity — held for the first time for all Sunners. Launching in November 2025, it encourages Sun* people to share words of recognition and thanks to colleagues on the system announced by the organizers. These will serve as reference material for the Heads Council when selecting award winners.
+          - link "Details" [ref=f12e234] [cursor=pointer]:
+            - /url: /sun-kudos
+            - generic [ref=f12e235]: Details
+        - img "Sun* Kudos" [ref=f12e238]
+    - contentinfo [ref=f12e239]:
+      - generic [ref=f12e240]:
+        - generic [ref=f12e241]:
+          - link "Sun* Annual Awards 2025 home" [ref=f12e242] [cursor=pointer]:
+            - /url: "#about"
+            - img "Sun* Annual Awards 2025" [ref=f12e243]
+          - navigation [ref=f12e244]:
+            - link "About SAA 2025" [ref=f12e245] [cursor=pointer]:
+              - /url: "#about"
+            - link "Award Information" [ref=f12e246] [cursor=pointer]:
+              - /url: "#awards"
+            - link "Sun* Kudos" [ref=f12e247] [cursor=pointer]:
+              - /url: "#kudos"
+            - link "General Standards" [ref=f12e248] [cursor=pointer]:
+              - /url: "#about"
+        - paragraph [ref=f12e249]: Copyright © 2025 Sun*
+    - button "/ SAA Rules" [ref=f12e251]:
+      - generic [ref=f12e252]:
+        - img [ref=f12e253]
+        - generic [ref=f12e255]: /
+      - img "SAA Rules" [ref=f12e257]
+  - button "Open Next.js Dev Tools" [ref=f12e263] [cursor=pointer]:
+    - img [ref=f12e264]

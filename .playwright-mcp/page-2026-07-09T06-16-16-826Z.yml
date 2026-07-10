@@ -1,0 +1,157 @@
+- generic [active] [ref=f3e1]:
+  - button "Open Next.js Dev Tools" [ref=f3e26] [cursor=pointer]:
+    - img [ref=f3e27]
+  - alert [ref=f3e30]: Sun* Annual Awards 2025 — Root Further
+  - generic [ref=f3e31]:
+    - banner [ref=f3e32]:
+      - generic [ref=f3e33]:
+        - generic [ref=f3e34]:
+          - link "Sun* Annual Awards 2025 home" [ref=f3e35] [cursor=pointer]:
+            - /url: /about
+            - img "Sun* Annual Awards 2025" [ref=f3e36]
+          - navigation [ref=f3e37]:
+            - link "About SAA 2025" [ref=f3e38] [cursor=pointer]:
+              - /url: /about
+            - link "Award Information" [ref=f3e39] [cursor=pointer]:
+              - /url: /he-thong-giai
+            - link "Sun* Kudos" [ref=f3e40] [cursor=pointer]:
+              - /url: /sun-kudos
+        - generic [ref=f3e41]:
+          - button "Notifications" [ref=f3e43]:
+            - img [ref=f3e44]
+          - button "Change language" [ref=f3e48] [cursor=pointer]:
+            - generic [ref=f3e49]:
+              - img [ref=f3e50]
+              - generic [ref=f3e51]: VN
+            - img [ref=f3e52]
+          - button "User profile" [ref=f3e54]:
+            - img [ref=f3e55]
+    - main [ref=f3e57]:
+      - generic [ref=f3e59]:
+        - img
+        - generic [ref=f3e60]:
+          - generic [ref=f3e61]:
+            - img "ROOT FURTHER" [ref=f3e62]
+            - generic [ref=f3e63]:
+              - generic [ref=f3e64]:
+                - paragraph [ref=f3e65]: Comming soon
+                - generic [ref=f3e66]:
+                  - generic [ref=f3e67]:
+                    - generic [ref=f3e68]:
+                      - generic [ref=f3e71]: "1"
+                      - generic [ref=f3e74]: "7"
+                      - generic [ref=f3e77]: "0"
+                    - paragraph [ref=f3e78]: DAYS
+                  - generic [ref=f3e79]:
+                    - generic [ref=f3e80]:
+                      - generic [ref=f3e83]: "0"
+                      - generic [ref=f3e86]: "5"
+                    - paragraph [ref=f3e87]: HOURS
+                  - generic [ref=f3e88]:
+                    - generic [ref=f3e89]:
+                      - generic [ref=f3e92]: "1"
+                      - generic [ref=f3e95]: "3"
+                    - paragraph [ref=f3e96]: MINUTES
+              - generic [ref=f3e97]:
+                - generic [ref=f3e98]:
+                  - paragraph [ref=f3e99]:
+                    - generic [ref=f3e100]: "Thời gian:"
+                    - text: 26/12/2026
+                  - paragraph [ref=f3e101]:
+                    - generic [ref=f3e102]: "Địa điểm:"
+                    - text: Âu Cơ Art Center
+                - paragraph [ref=f3e103]: Tường thuật trực tiếp qua sóng Livestream
+            - generic [ref=f3e104]:
+              - link "ABOUT AWARDS" [ref=f3e105] [cursor=pointer]:
+                - /url: "#awards"
+                - text: ABOUT AWARDS
+              - link "ABOUT KUDOS" [ref=f3e107] [cursor=pointer]:
+                - /url: "#kudos"
+                - text: ABOUT KUDOS
+          - generic [ref=f3e109]:
+            - generic [ref=f3e110]:
+              - img "Root" [ref=f3e112]
+              - img "Further" [ref=f3e114]
+            - paragraph [ref=f3e115]: Đứng trước bối cảnh thay đổi như vũ bão của thời đại AI và yêu cầu ngày càng cao từ khách hàng, Sun* lựa chọn chiến lược đa dạng hóa năng lực để không chỉ nỗ lực trở thành tinh anh trong lĩnh vực của mình, mà còn hướng đến một cái đích cao hơn, nơi mọi Sunner đều là “problem-solver” - chuyên gia trong việc giải quyết mọi vấn đề, tìm lời giải cho mọi bài toán của dự án, khách hàng và xã hội. Lấy cảm hứng từ sự đa dạng năng lực, khả năng phát triển linh hoạt cùng tinh thần đào sâu để bứt phá trong kỷ nguyên AI, “Root Further” đã được chọn để trở thành chủ đề chính thức của Lễ trao giải Sun* Annual Awards 2025. Vượt ra khỏi nét nghĩa bề mặt, “Root Further” chính là hành trình chúng ta không ngừng vươn xa hơn, cắm rễ mạnh hơn, chạm đến những tầng “địa chất” ẩn sâu để tiếp tục tồn tại, vươn lên và nuôi dưỡng đam mê kiến tạo giá trị luôn cháy bỏng của người Sun*. Mượn hình ảnh bộ rễ liên tục đâm sâu vào lòng đất, mạnh mẽ len lỏi qua từng lớp “trầm tích” để thẩm thấu những gì tinh tuý nhất, người Sun* cũng đang “hấp thụ” dưỡng chất từ thời đại và những thử thách của thị trường để làm mới mình mỗi ngày, mở rộng năng lực và mạnh mẽ “bén rễ” vào kỷ nguyên AI - một tầng “địa chất” hoàn toàn mới, phức tạp và khó đoán, nhưng cũng hội tụ vô vàn tiềm năng cùng cơ hội.
+            - paragraph [ref=f3e116]: “A tree with deep roots fears no storm” (Cây sâu bén rễ, bão giông chẳng nề - Ngạn ngữ Anh)
+            - paragraph [ref=f3e117]: Trước giông bão, chỉ những tán cây có bộ rễ đủ mạnh mới có thể trụ vững. Một tổ chức với những cá nhân tự tin vào năng lực đa dạng, sẵn sàng kiến tạo và đón nhận thử thách, làm chủ sự thay đổi là tổ chức không chỉ vững vàng trước biến động, mà còn khai thác được mọi lợi thế, chinh phục các thách thức của thời cuộc. Không đơn thuần là tên gọi của chương mới trên hành trình phát triển tổ chức, “Root Further” còn như một lời cổ vũ, động viên mỗi chúng ta hãy dám tin vào bản thân, dám đào sâu, khai mở mọi tiềm năng, dám phá bỏ giới hạn, dám trở thành phiên bản đa nhiệm và xuất sắc nhất của mình. Bởi trong thời đại AI, đa dạng năng lực và tận dụng sức mạnh thời cuộc chính là điều kiện tiên quyết để trường tồn. Không ai biết trước ẩn sâu trong “lòng đất” của ngành công nghệ và thị trường hiện đại còn biết bao tầng “địa chất” bí ẩn. Chỉ biết rằng khi “Root Further” đã trở thành tinh thần cội rễ, chúng ta sẽ không sợ hãi, mà càng thấy háo hức trước bất cứ vùng vô định nào trên hành trình tiến về phía trước. Vì ta luôn tin rằng, trong chính những miền vô tận đó, là bao điều kỳ diệu và cơ hội vươn mình đang chờ ta.
+      - generic [ref=f3e119]:
+        - generic [ref=f3e120]:
+          - paragraph [ref=f3e121]: Sun* annual awards 2025
+          - heading "Hệ thống giải thưởng" [level=2] [ref=f3e124]
+        - generic [ref=f3e125]:
+          - generic [ref=f3e126]:
+            - link "Top Talent Top Talent Vinh danh top cá nhân xuất sắc trên mọi phương diện Chi tiết" [ref=f3e127] [cursor=pointer]:
+              - /url: "#awards"
+              - img "Top Talent" [ref=f3e130]
+              - generic [ref=f3e131]:
+                - heading "Top Talent" [level=3] [ref=f3e132]
+                - paragraph [ref=f3e133]: Vinh danh top cá nhân xuất sắc trên mọi phương diện
+                - generic [ref=f3e135]: Chi tiết
+            - link "Top Project Top Project Vinh danh dự án xuất sắc trên mọi phương diện, dự án có doanh thu nổi bật Chi tiết" [ref=f3e137] [cursor=pointer]:
+              - /url: "#awards"
+              - img "Top Project" [ref=f3e140]
+              - generic [ref=f3e141]:
+                - heading "Top Project" [level=3] [ref=f3e142]
+                - paragraph [ref=f3e143]: Vinh danh dự án xuất sắc trên mọi phương diện, dự án có doanh thu nổi bật
+                - generic [ref=f3e145]: Chi tiết
+            - link "Top Project Leader Top Project Leader Vinh danh người quản lý truyền cảm hứng và dẫn dắt dự án bứt phá, Chi tiết" [ref=f3e147] [cursor=pointer]:
+              - /url: "#awards"
+              - img "Top Project Leader" [ref=f3e150]
+              - generic [ref=f3e151]:
+                - heading "Top Project Leader" [level=3] [ref=f3e152]
+                - paragraph [ref=f3e153]: Vinh danh người quản lý truyền cảm hứng và dẫn dắt dự án bứt phá,
+                - generic [ref=f3e155]: Chi tiết
+          - generic [ref=f3e157]:
+            - link "Best Manager Best Manager Vinh danh người quản lý có năng lực quản lý tốt, dẫn dắt đội nhóm Chi tiết" [ref=f3e158] [cursor=pointer]:
+              - /url: "#awards"
+              - img "Best Manager" [ref=f3e161]
+              - generic [ref=f3e162]:
+                - heading "Best Manager" [level=3] [ref=f3e163]
+                - paragraph [ref=f3e164]: Vinh danh người quản lý có năng lực quản lý tốt, dẫn dắt đội nhóm
+                - generic [ref=f3e166]: Chi tiết
+            - link "Signature 2025 - Creator Signature 2025 - Creator Vinh danh người quản lý có năng lực quản lý tốt, dẫn dắt đội nhóm Chi tiết" [ref=f3e168] [cursor=pointer]:
+              - /url: "#awards"
+              - img "Signature 2025 - Creator" [ref=f3e171]
+              - generic [ref=f3e172]:
+                - heading "Signature 2025 - Creator" [level=3] [ref=f3e173]
+                - paragraph [ref=f3e174]: Vinh danh người quản lý có năng lực quản lý tốt, dẫn dắt đội nhóm
+                - generic [ref=f3e176]: Chi tiết
+            - link "MVP (Most Valuable Person) MVP (Most Valuable Person) Vinh danh người quản lý có năng lực quản lý tốt, dẫn dắt đội nhóm Chi tiết" [ref=f3e178] [cursor=pointer]:
+              - /url: "#awards"
+              - img "MVP (Most Valuable Person)" [ref=f3e181]
+              - generic [ref=f3e182]:
+                - heading "MVP (Most Valuable Person)" [level=3] [ref=f3e183]
+                - paragraph [ref=f3e184]: Vinh danh người quản lý có năng lực quản lý tốt, dẫn dắt đội nhóm
+                - generic [ref=f3e186]: Chi tiết
+      - generic [ref=f3e190]:
+        - generic [ref=f3e191]:
+          - generic [ref=f3e192]:
+            - paragraph [ref=f3e193]: Phong trào ghi nhận
+            - paragraph [ref=f3e194]: Sun* Kudos
+            - paragraph [ref=f3e195]: ĐIỂM MỚI CỦA SAA 2025 Hoạt động ghi nhận và cảm ơn đồng nghiệp - lần đầu tiên được diễn ra dành cho tất cả Sunner. Hoạt động sẽ được triển khai vào tháng 11/2025, khuyến khích người Sun* chia sẻ những lời ghi nhận, cảm ơn đồng nghiệp trên hệ thống do BTC công bố. Đây sẽ là chất liệu để Hội đồng Heads tham khảo trong quá trình lựa chọn người đạt giải.
+          - link "Chi tiết" [ref=f3e197] [cursor=pointer]:
+            - /url: /sun-kudos
+            - generic [ref=f3e198]: Chi tiết
+        - img "Sun* Kudos" [ref=f3e201]
+    - contentinfo [ref=f3e202]:
+      - generic [ref=f3e203]:
+        - generic [ref=f3e204]:
+          - link "Sun* Annual Awards 2025 home" [ref=f3e205] [cursor=pointer]:
+            - /url: "#about"
+            - img "Sun* Annual Awards 2025" [ref=f3e206]
+          - navigation [ref=f3e207]:
+            - link "About SAA 2025" [ref=f3e208] [cursor=pointer]:
+              - /url: "#about"
+            - link "Award Information" [ref=f3e209] [cursor=pointer]:
+              - /url: "#awards"
+            - link "Sun* Kudos" [ref=f3e210] [cursor=pointer]:
+              - /url: "#kudos"
+            - link "Tiêu chuẩn chung" [ref=f3e211] [cursor=pointer]:
+              - /url: "#about"
+        - paragraph [ref=f3e212]: Bản quyền thuộc về Sun* © 2025
+    - button "/ Thể lệ SAA" [ref=f3e214]:
+      - generic [ref=f3e215]:
+        - img [ref=f3e216]
+        - generic [ref=f3e218]: /
+      - img "Thể lệ SAA" [ref=f3e220]

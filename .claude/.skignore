@@ -1,0 +1,15 @@
+# Scout block overrides (replaces shipped defaults)
+# Block heavy/noise dirs by contents so a precise carve-out can re-include a subtree.
+node_modules/**
+.next/**
+.git/**
+dist/**
+build/**
+coverage/**
+
+# Carve-out: Next.js ships its own docs here and AGENTS.md requires reading them
+# before writing any code (this project uses a modified Next.js).
+!node_modules/next
+!node_modules/next/dist
+!node_modules/next/dist/docs
+!node_modules/next/dist/docs/**

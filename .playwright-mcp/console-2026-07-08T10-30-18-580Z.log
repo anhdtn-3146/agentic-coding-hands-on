@@ -1,0 +1,179 @@
+[     228ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[     245ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[     325ms] [WARNING] Image with src "/homepage-saa/Root_Text.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[     325ms] [WARNING] Image with src "/homepage-saa/Further_Text.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[     326ms] [WARNING] Image with src "/homepage-saa/Award_Name_Top_Talent.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   51866ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   51875ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   76252ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   76258ms] [LOG] [Fast Refresh] done in 106ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   96514ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   96526ms] [LOG] [Fast Refresh] done in 112ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  134558ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  134583ms] [LOG] [Fast Refresh] done in 125ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  163329ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  163330ms] [LOG] [Fast Refresh] done in 100ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  163454ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  163455ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  193065ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  193067ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  382721ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  382734ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  463642ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  463692ms] [LOG] [Fast Refresh] done in 151ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  485209ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  485227ms] [LOG] [Fast Refresh] done in 119ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  487096ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  487100ms] [LOG] [Fast Refresh] done in 105ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  529723ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  529834ms] [ERROR] ./components/common/i18n-provider.tsx:5:1
+Export default doesn't exist in target module
+  3 | import { useEffect } from "react";
+  4 | import { I18nextProvider } from "react-i18next";
+> 5 | import i18n, { initI18n } from "@/lib/i18n/i18n";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { resolveLocale } from "@/lib/i18n/settings";
+  7 |
+  8 | /**
+
+The export default was not found in module [project]/lib/i18n/i18n.ts [app-client] (ecmascript).
+Did you mean to import createI18nInstance?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/common/i18n-provider.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  529835ms] [ERROR] ./components/common/i18n-provider.tsx:5:1
+Export default doesn't exist in target module
+  3 | import { useEffect } from "react";
+  4 | import { I18nextProvider } from "react-i18next";
+> 5 | import i18n, { initI18n } from "@/lib/i18n/i18n";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { resolveLocale } from "@/lib/i18n/settings";
+  7 |
+  8 | /**
+
+The export default was not found in module [project]/lib/i18n/i18n.ts [app-ssr] (ecmascript).
+Did you mean to import createI18nInstance?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/common/i18n-provider.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  529835ms] [ERROR] ./components/common/i18n-provider.tsx:5:1
+Export initI18n doesn't exist in target module
+  3 | import { useEffect } from "react";
+  4 | import { I18nextProvider } from "react-i18next";
+> 5 | import i18n, { initI18n } from "@/lib/i18n/i18n";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { resolveLocale } from "@/lib/i18n/settings";
+  7 |
+  8 | /**
+
+The export initI18n was not found in module [project]/lib/i18n/i18n.ts [app-client] (ecmascript).
+Did you mean to import createI18nInstance?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/common/i18n-provider.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  529835ms] [ERROR] ./components/common/i18n-provider.tsx:5:1
+Export initI18n doesn't exist in target module
+  3 | import { useEffect } from "react";
+  4 | import { I18nextProvider } from "react-i18next";
+> 5 | import i18n, { initI18n } from "@/lib/i18n/i18n";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { resolveLocale } from "@/lib/i18n/settings";
+  7 |
+  8 | /**
+
+The export initI18n was not found in module [project]/lib/i18n/i18n.ts [app-ssr] (ecmascript).
+Did you mean to import createI18nInstance?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/common/i18n-provider.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  529932ms] [ERROR] ./components/common/i18n-provider.tsx:5:1
+Export default doesn't exist in target module
+  3 | import { useEffect } from "react";
+  4 | import { I18nextProvider } from "react-i18next";
+> 5 | import i18n, { initI18n } from "@/lib/i18n/i18n";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { resolveLocale } from "@/lib/i18n/settings";
+  7 |
+  8 | /**
+
+The export default was not found in module [project]/lib/i18n/i18n.ts [app-client] (ecmascript).
+Did you mean to import createI18nInstance?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/common/i18n-provider.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  529932ms] [ERROR] ./components/common/i18n-provider.tsx:5:1
+Export default doesn't exist in target module
+  3 | import { useEffect } from "react";
+  4 | import { I18nextProvider } from "react-i18next";
+> 5 | import i18n, { initI18n } from "@/lib/i18n/i18n";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { resolveLocale } from "@/lib/i18n/settings";
+  7 |
+  8 | /**
+
+The export default was not found in module [project]/lib/i18n/i18n.ts [app-ssr] (ecmascript).
+Did you mean to import createI18nInstance?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/common/i18n-provider.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  529932ms] [ERROR] ./components/common/i18n-provider.tsx:5:1
+Export initI18n doesn't exist in target module
+  3 | import { useEffect } from "react";
+  4 | import { I18nextProvider } from "react-i18next";
+> 5 | import i18n, { initI18n } from "@/lib/i18n/i18n";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { resolveLocale } from "@/lib/i18n/settings";
+  7 |
+  8 | /**
+
+The export initI18n was not found in module [project]/lib/i18n/i18n.ts [app-client] (ecmascript).
+Did you mean to import createI18nInstance?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/common/i18n-provider.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  529933ms] [ERROR] ./components/common/i18n-provider.tsx:5:1
+Export initI18n doesn't exist in target module
+  3 | import { useEffect } from "react";
+  4 | import { I18nextProvider } from "react-i18next";
+> 5 | import i18n, { initI18n } from "@/lib/i18n/i18n";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { resolveLocale } from "@/lib/i18n/settings";
+  7 |
+  8 | /**
+
+The export initI18n was not found in module [project]/lib/i18n/i18n.ts [app-ssr] (ecmascript).
+Did you mean to import createI18nInstance?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/common/i18n-provider.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  529974ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  533573ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  533674ms] [LOG] [Fast Refresh] done in 105ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  544974ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  544992ms] [LOG] [Fast Refresh] done in 97ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  552760ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  552777ms] [LOG] [Fast Refresh] done in 117ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477

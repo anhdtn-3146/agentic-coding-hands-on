@@ -1,0 +1,941 @@
+[     292ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[     309ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[     394ms] [WARNING] Image with src "http://localhost:3000/icons/flag_vn.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[     395ms] [WARNING] Image with src "/homepage-saa/Award_Name_Top_Talent.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  167989ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  168072ms] [LOG] [Fast Refresh] done in 147ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  175698ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  175729ms] [LOG] [Fast Refresh] done in 94ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  181980ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  182012ms] [LOG] [Fast Refresh] done in 79ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  307496ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  307644ms] [LOG] [Fast Refresh] done in 222ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  321350ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  321375ms] [LOG] [Fast Refresh] done in 76ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  377980ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  378044ms] [LOG] [Fast Refresh] done in 63ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  615854ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  615855ms] [LOG] [Fast Refresh] done in 101ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  625378ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  625405ms] [LOG] [Fast Refresh] done in 128ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 1598094ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 1598116ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 1598180ms] [WARNING] Image with src "http://localhost:3000/icons/flag_vn.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 1601788ms] [WARNING] The resource http://localhost:3000/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/he-thong-giai:0
+[ 1601788ms] [WARNING] The resource http://localhost:3000/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/he-thong-giai:0
+[ 1603246ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 1603253ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 1619081ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 1619119ms] [LOG] [Fast Refresh] done in 138ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 1627715ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 1627741ms] [LOG] [Fast Refresh] done in 125ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 1879557ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 1879608ms] [LOG] [Fast Refresh] done in 151ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 1995357ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 1995372ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2097661ms] [WARNING] The resource http://localhost:3000/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/he-thong-giai#about:0
+[ 2097661ms] [WARNING] The resource http://localhost:3000/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/he-thong-giai#about:0
+[ 2098455ms] [WARNING] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2098497ms] [WARNING] Image with src "/homepage-saa/Award_Name_Top_Talent.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2098498ms] [WARNING] Image with src "/homepage-saa/Award_BG.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2098762ms] [WARNING] Image with src "/homepage-saa/Root_Text.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2098763ms] [WARNING] Image with src "/homepage-saa/Further_Text.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2102747ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2102866ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/sun-kudos?_rsc=-q77a8sgetc5GTNm:0
+[ 2102869ms] [LOG] [Fast Refresh] done in 222ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2102918ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/sun-kudos:0
+[ 2102974ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2102988ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2104715ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2104755ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2104810ms] [WARNING] Image with src "http://localhost:3000/icons/flag_vn.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2104810ms] [WARNING] Image with src "/homepage-saa/Award_Name_Top_Talent.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2107799ms] [WARNING] The resource http://localhost:3000/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/he-thong-giai:0
+[ 2107799ms] [WARNING] The resource http://localhost:3000/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/he-thong-giai:0
+[ 2218514ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2218544ms] [LOG] [Fast Refresh] done in 129ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2343258ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2343289ms] [LOG] [Fast Refresh] done in 132ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2354321ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2354323ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2358977ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2359032ms] [LOG] [Fast Refresh] done in 150ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2362307ms] [WARNING] The resource http://localhost:3000/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/he-thong-giai:0
+[ 2362307ms] [WARNING] The resource http://localhost:3000/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/he-thong-giai:0
+[ 2370854ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2370861ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2378283ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2378310ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2391425ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2391633ms] [ERROR] ./lib/i18n/i18n.ts:13:1
+Module not found: Can't resolve './locales/vi/rules.json'
+  11 | import viLogin from "./locales/vi/login.json";
+  12 | import viCountdown from "./locales/vi/countdown.json";
+> 13 | import viRules from "./locales/vi/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 | import enCommon from "./locales/en/common.json";
+  15 | import enNav from "./locales/en/nav.json";
+  16 | import enHome from "./locales/en/home.json";
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 2394682ms] [WARNING] The resource http://localhost:3000/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/he-thong-giai:0
+[ 2394682ms] [WARNING] The resource http://localhost:3000/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/he-thong-giai:0
+[ 2397779ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2397855ms] [ERROR] ./lib/i18n/i18n.ts:20:1
+Module not found: Can't resolve './locales/en/rules.json'
+  18 | import enLogin from "./locales/en/login.json";
+  19 | import enCountdown from "./locales/en/countdown.json";
+> 20 | import enRules from "./locales/en/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | import jaCommon from "./locales/ja/common.json";
+  22 | import jaNav from "./locales/ja/nav.json";
+  23 | import jaHome from "./locales/ja/home.json";
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 2397855ms] [ERROR] ./lib/i18n/i18n.ts:13:1
+Module not found: Can't resolve './locales/vi/rules.json'
+  11 | import viLogin from "./locales/vi/login.json";
+  12 | import viCountdown from "./locales/vi/countdown.json";
+> 13 | import viRules from "./locales/vi/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 | import enCommon from "./locales/en/common.json";
+  15 | import enNav from "./locales/en/nav.json";
+  16 | import enHome from "./locales/en/home.json";
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 2403251ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2403367ms] [ERROR] ./lib/i18n/i18n.ts:20:1
+Module not found: Can't resolve './locales/en/rules.json'
+  18 | import enLogin from "./locales/en/login.json";
+  19 | import enCountdown from "./locales/en/countdown.json";
+> 20 | import enRules from "./locales/en/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | import jaCommon from "./locales/ja/common.json";
+  22 | import jaNav from "./locales/ja/nav.json";
+  23 | import jaHome from "./locales/ja/home.json";
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 2403368ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 2403368ms] [ERROR] ./lib/i18n/i18n.ts:13:1
+Module not found: Can't resolve './locales/vi/rules.json'
+  11 | import viLogin from "./locales/vi/login.json";
+  12 | import viCountdown from "./locales/vi/countdown.json";
+> 13 | import viRules from "./locales/vi/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 | import enCommon from "./locales/en/common.json";
+  15 | import enNav from "./locales/en/nav.json";
+  16 | import enHome from "./locales/en/home.json";
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 2422989ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2423182ms] [ERROR] ./lib/i18n/i18n.ts:20:1
+Module not found: Can't resolve './locales/en/rules.json'
+  18 | import enLogin from "./locales/en/login.json";
+  19 | import enCountdown from "./locales/en/countdown.json";
+> 20 | import enRules from "./locales/en/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | import jaCommon from "./locales/ja/common.json";
+  22 | import jaNav from "./locales/ja/nav.json";
+  23 | import jaHome from "./locales/ja/home.json";
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 2423183ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 2423222ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/he-thong-giai?_rsc=flThbtRqqGG3czW9:0
+[ 2423271ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/he-thong-giai?_rsc=flThbtRqqGG3czW9:0
+[ 2423303ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/he-thong-giai:0
+[ 2423414ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0kla17-._.js:15305
+[ 2423477ms] Error: ./lib/i18n/i18n.ts:20:1
+Module not found: Can't resolve './locales/en/rules.json'
+  18 | import enLogin from "./locales/en/login.json";
+  19 | import enCountdown from "./locales/en/countdown.json";
+> 20 | import enRules from "./locales/en/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | import jaCommon from "./locales/ja/common.json";
+  22 | import jaNav from "./locales/ja/nav.json";
+  23 | import jaHome from "./locales/ja/home.json";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./lib/i18n/i18n.ts:20:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/base-server.js:1753:26)
+[ 2423478ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[ 2423480ms] [ERROR] ./lib/i18n/i18n.ts:20:1
+Module not found: Can't resolve './locales/en/rules.json'
+  18 | import enLogin from "./locales/en/login.json";
+  19 | import enCountdown from "./locales/en/countdown.json";
+> 20 | import enRules from "./locales/en/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | import jaCommon from "./locales/ja/common.json";
+  22 | import jaNav from "./locales/ja/nav.json";
+  23 | import jaHome from "./locales/ja/home.json";
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2423481ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2423481ms] [ERROR] ./lib/i18n/i18n.ts:20:1
+Module not found: Can't resolve './locales/en/rules.json'
+  18 | import enLogin from "./locales/en/login.json";
+  19 | import enCountdown from "./locales/en/countdown.json";
+> 20 | import enRules from "./locales/en/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | import jaCommon from "./locales/ja/common.json";
+  22 | import jaNav from "./locales/ja/nav.json";
+  23 | import jaHome from "./locales/ja/home.json";
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2423481ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2423481ms] [ERROR] ./lib/i18n/i18n.ts:20:1
+Module not found: Can't resolve './locales/en/rules.json'
+  18 | import enLogin from "./locales/en/login.json";
+  19 | import enCountdown from "./locales/en/countdown.json";
+> 20 | import enRules from "./locales/en/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | import jaCommon from "./locales/ja/common.json";
+  22 | import jaNav from "./locales/ja/nav.json";
+  23 | import jaHome from "./locales/ja/home.json";
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2423481ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2423481ms] [ERROR] ./lib/i18n/i18n.ts:20:1
+Module not found: Can't resolve './locales/en/rules.json'
+  18 | import enLogin from "./locales/en/login.json";
+  19 | import enCountdown from "./locales/en/countdown.json";
+> 20 | import enRules from "./locales/en/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | import jaCommon from "./locales/ja/common.json";
+  22 | import jaNav from "./locales/ja/nav.json";
+  23 | import jaHome from "./locales/ja/home.json";
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2423481ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2423481ms] [ERROR] ./lib/i18n/i18n.ts:20:1
+Module not found: Can't resolve './locales/en/rules.json'
+  18 | import enLogin from "./locales/en/login.json";
+  19 | import enCountdown from "./locales/en/countdown.json";
+> 20 | import enRules from "./locales/en/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | import jaCommon from "./locales/ja/common.json";
+  22 | import jaNav from "./locales/ja/nav.json";
+  23 | import jaHome from "./locales/ja/home.json";
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2423482ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2423482ms] [ERROR] ./lib/i18n/i18n.ts:20:1
+Module not found: Can't resolve './locales/en/rules.json'
+  18 | import enLogin from "./locales/en/login.json";
+  19 | import enCountdown from "./locales/en/countdown.json";
+> 20 | import enRules from "./locales/en/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | import jaCommon from "./locales/ja/common.json";
+  22 | import jaNav from "./locales/ja/nav.json";
+  23 | import jaHome from "./locales/ja/home.json";
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2423482ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2423516ms] [ERROR] ./lib/i18n/i18n.ts:20:1
+Module not found: Can't resolve './locales/en/rules.json'
+  18 | import enLogin from "./locales/en/login.json";
+  19 | import enCountdown from "./locales/en/countdown.json";
+> 20 | import enRules from "./locales/en/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | import jaCommon from "./locales/ja/common.json";
+  22 | import jaNav from "./locales/ja/nav.json";
+  23 | import jaHome from "./locales/ja/home.json";
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2423516ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2434943ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[ 2435064ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2435113ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/he-thong-giai:0
+[ 2435177ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0kla17-._.js:15305
+[ 2435202ms] Error: ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./lib/i18n/i18n.ts:27:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/base-server.js:1753:26)
+[ 2435209ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[ 2435226ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2435227ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2435227ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2435227ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2435227ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2435227ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2435286ms] [ERROR] ./lib/i18n/i18n.ts:27:1
+Module not found: Can't resolve './locales/ja/rules.json'
+  25 | import jaLogin from "./locales/ja/login.json";
+  26 | import jaCountdown from "./locales/ja/countdown.json";
+> 27 | import jaRules from "./locales/ja/rules.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |
+  29 | export const resources = {
+  30 |   vi: {
+
+Import traces:
+  Client Component Browser:
+    ./lib/i18n/i18n.ts [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Client Component Browser]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/i18n/i18n.ts [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Client Component SSR]
+    ./components/common/i18n-provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[ 2435322ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[ 2448295ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[ 2448429ms] [LOG] [Fast Refresh] done in 130ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[ 2448803ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2448854ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2448918ms] [WARNING] Image with src "http://localhost:3000/icons/flag_vn.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2448919ms] [WARNING] Image with src "/homepage-saa/Award_Name_Top_Talent.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2451891ms] [WARNING] The resource http://localhost:3000/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/he-thong-giai:0
+[ 2451891ms] [WARNING] The resource http://localhost:3000/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/he-thong-giai:0
+[ 2499177ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2499210ms] [LOG] [Fast Refresh] done in 134ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2518597ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2518722ms] [LOG] [Fast Refresh] done in 198ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2526957ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2526985ms] [LOG] [Fast Refresh] done in 81ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2535854ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2535879ms] [LOG] [Fast Refresh] done in 74ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2557157ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2557187ms] [ERROR] ./components/homepage/widget-button.tsx:157:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  155 |     </div>
+  156 |   );
+> 157 | }
+      | ^
+  158 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/homepage/widget-button.tsx
+    ./app/about/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 2557495ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2557511ms] [ERROR] ./components/homepage/widget-button.tsx:157:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  155 |     </div>
+  156 |   );
+> 157 | }
+      | ^
+  158 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/homepage/widget-button.tsx
+    ./app/about/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 2557741ms] [ERROR] ./components/homepage/widget-button.tsx:157:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  155 |     </div>
+  156 |   );
+> 157 | }
+      | ^
+  158 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/homepage/widget-button.tsx
+    ./app/about/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[ 2557744ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2563241ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2563421ms] [LOG] [Fast Refresh] done in 189ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2649713ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2649745ms] [LOG] [Fast Refresh] done in 133ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2663291ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[ 2663297ms] [LOG] [Fast Refresh] done in 106ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477

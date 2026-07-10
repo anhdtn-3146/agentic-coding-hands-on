@@ -1,0 +1,19 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - img "Sun* Annual Awards 2025" [ref=e4]
+    - button "VN" [ref=e6] [cursor=pointer]:
+      - generic [ref=e7]:
+        - img [ref=e8]
+        - generic [ref=e9]: VN
+      - img [ref=e10]
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - img "ROOT FURTHER" [ref=e13]
+      - paragraph [ref=e14]:
+        - text: Bắt đầu hành trình của bạn cùng SAA 2025.
+        - text: Đăng nhập để khám phá!
+      - button "LOGIN With Google" [ref=e15]:
+        - generic [ref=e16]: LOGIN With Google
+        - img [ref=e17]
+  - contentinfo [ref=e18]:
+    - paragraph [ref=e19]: Bản quyền thuộc về Sun* © 2025

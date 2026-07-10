@@ -1,0 +1,42 @@
+{
+  "title": "Send thanks and recognition to a teammate",
+  "recipient": {
+    "label": "Recipient",
+    "placeholder": "Search",
+    "empty": "No matching Sunner found"
+  },
+  "danhHieu": {
+    "label": "Title",
+    "placeholder": "Give your teammate a title",
+    "example": "Example: The one who motivates me.",
+    "hint": "This title will be shown as your Kudos headline."
+  },
+  "editor": {
+    "communityStandard": "Community Standards",
+    "placeholder": "Write your thanks and recognition for your teammate here!",
+    "hint": "You can use “@ + name” to mention another colleague"
+  },
+  "toolbar": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "strike": "Strikethrough",
+    "list": "Numbered list",
+    "link": "Insert link",
+    "quote": "Quote"
+  },
+  "hashtag": {
+    "label": "Hashtag",
+    "add": "Hashtag",
+    "max": "Max 5",
+    "customPlaceholder": "Type a new hashtag"
+  },
+  "image": {
+    "label": "Image",
+    "add": "Image",
+    "max": "Max 5"
+  },
+  "anonymous": "Send this thanks and recognition anonymously",
+  "cancel": "Cancel",
+  "submit": "Send",
+  "success": "Your Kudos has been sent!"
+}

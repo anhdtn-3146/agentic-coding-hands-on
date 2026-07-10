@@ -1,0 +1,2 @@
+- [Docs state: only journals/ exists](project_docs-state.md) — no changelog/roadmap/architecture/code-standards/specs docs maintained in aidd-app
+- [Don't fabricate doc hosts](feedback_no-fabricate-doc-hosts.md) — only add notes to docs that are already genuinely maintained, not boilerplate or ill-fitting journal format
