@@ -17,6 +17,9 @@ export const namespaces = [
   "countdown",
   "rules",
   "kudos",
+  "kudosBoard",
+  "kudosFeed",
+  "kudosSpotlight",
 ] as const;
 export const defaultNS = "common";
 

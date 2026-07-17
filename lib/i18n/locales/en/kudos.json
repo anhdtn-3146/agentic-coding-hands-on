@@ -28,12 +28,13 @@
     "label": "Hashtag",
     "add": "Hashtag",
     "max": "Max 5",
-    "customPlaceholder": "Type a new hashtag"
+    "remove": "Remove {{tag}}"
   },
   "image": {
     "label": "Image",
     "add": "Image",
-    "max": "Max 5"
+    "max": "Max 5",
+    "remove": "Remove image {{index}}"
   },
   "anonymous": "Send this thanks and recognition anonymously",
   "cancel": "Cancel",

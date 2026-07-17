@@ -1,0 +1,2 @@
+- [Icon convention](project_icon_convention.md) — CustomSvgIcon (file-based, public/) vs inline `<svg>` one-offs; flag inline SVGs as minor drift
+- [SAA_HASHTAGS shared list](project_saa_hashtags.md) — canonical hashtag source for kudos picker + board filter, no "#" baked into data

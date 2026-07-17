@@ -10,8 +10,9 @@
     "empty": "Không có thông báo mới"
   },
   "widget": {
-    "writeKudos": "Viết Kudos",
-    "saaRules": "Thể lệ SAA"
+    "writeKudos": "Viết KUDOS",
+    "saaRules": "Thể lệ",
+    "close": "Đóng"
   },
   "kudos": {
     "kicker": "Phong trào ghi nhận",

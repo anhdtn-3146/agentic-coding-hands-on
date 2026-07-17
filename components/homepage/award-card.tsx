@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
-import { IconUp } from "@/components/common/icons";
+import CustomSvgIcon from "@/components/common/custom-svg-icon";
 
 export interface AwardCardData {
   nodeId: string;
@@ -73,7 +73,7 @@ export default function AwardCard({
             {t("home:awards.detailLink")}
           </span>
           {/* mm:186:1441 MM_MEDIA_Up */}
-          <IconUp />
+          <CustomSvgIcon src="/icons/icon_up.svg" className="h-6 w-6" />
         </span>
       </div>
     </a>

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
+import { KUDOS_MAX_IMAGES } from "@/constants";
 
 export interface KudosImagePreview {
   file: File;
@@ -12,8 +13,6 @@ export interface KudosImageUploadProps {
   images: KudosImagePreview[];
   onChange: (images: KudosImagePreview[]) => void;
 }
-
-const MAX_IMAGES = 5;
 
 /**
  * "Image" attachment field — Figma node F (mms_F_Frame 537). Real file picker
@@ -29,8 +28,11 @@ export default function KudosImageUpload({
   const inputRef = useRef<HTMLInputElement>(null);
   // Keep the latest images in a ref so the unmount cleanup effect (which must
   // run with an empty dep array) can still revoke whatever is current then.
+  // Synced in an effect — writing a ref during render is a React violation.
   const imagesRef = useRef(images);
-  imagesRef.current = images;
+  useEffect(() => {
+    imagesRef.current = images;
+  }, [images]);
 
   useEffect(() => {
     return () => {
@@ -40,7 +42,7 @@ export default function KudosImageUpload({
 
   const handleFiles = (files: FileList | null) => {
     if (!files || files.length === 0) return;
-    const room = MAX_IMAGES - images.length;
+    const room = KUDOS_MAX_IMAGES - images.length;
     const picked = Array.from(files).slice(0, room);
     const next = picked.map((file) => ({ file, url: URL.createObjectURL(file) }));
     onChange([...images, ...next]);
@@ -71,7 +73,7 @@ export default function KudosImageUpload({
           />
           <button
             type="button"
-            aria-label={`remove image ${i + 1}`}
+            aria-label={t("kudos:image.remove", { index: i + 1 })}
             onClick={() => removeAt(i)}
             className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-[#D4271D] text-[10px] text-white"
           >
@@ -80,7 +82,7 @@ export default function KudosImageUpload({
         </div>
       ))}
 
-      {images.length < MAX_IMAGES && (
+      {images.length < KUDOS_MAX_IMAGES && (
         <label className="flex w-fit cursor-pointer flex-col items-center gap-0.5 rounded-lg border border-[#998C5F] bg-white px-3 py-1.5">
           <input
             ref={inputRef}

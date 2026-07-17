@@ -1,0 +1,501 @@
+[     269ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[     310ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[     455ms] [WARNING] Image with src "http://localhost:3000/icons/flag_vn.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   45887ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   45912ms] [LOG] [Fast Refresh] done in 125ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   73836ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   73872ms] [LOG] [Fast Refresh] done in 137ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  100094ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  100097ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  308438ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  308479ms] [LOG] [Fast Refresh] done in 141ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  464735ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  464747ms] [LOG] [Fast Refresh] done in 112ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  520845ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  520848ms] [LOG] [Fast Refresh] done in 103ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  589326ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  589334ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  650453ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  650505ms] [LOG] [Fast Refresh] done in 152ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  650606ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  650611ms] [LOG] [Fast Refresh] done in 105ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  677272ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  677341ms] [LOG] [Fast Refresh] done in 169ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  687752ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  687763ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  698696ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  698826ms] [LOG] [Fast Refresh] done in 230ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  737184ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  737519ms] [ERROR] ./components/kudos-board/feed-kudo-post-card.tsx:7:1
+Module not found: Can't resolve '@/components/kudos-board/feed-hero-badge'
+   5 | import { useTranslation } from "react-i18next";
+   6 | import type { KudoPost } from "@/components/kudos-board/feed-mock-data";
+>  7 | import HeroBadge from "@/components/kudos-board/feed-hero-badge";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import FeedImageLightbox from "@/components/kudos-board/feed-image-lightbox";
+   9 | import { IconSend, IconHeart, IconPen, IconLink } from "@/components/kudos-board/feed-icons";
+  10 |
+
+Import map: aliased to relative './components/kudos-board/feed-hero-badge' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component Browser]
+    ./components/kudos-board/feed-list.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component SSR]
+    ./components/kudos-board/feed-list.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  737520ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/sun-kudos?_rsc=B7qYyKMzOFmD4DEu:0
+[  737587ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/sun-kudos?_rsc=B7qYyKMzOFmD4DEu:0
+[  737589ms] [ERROR] ./components/kudos-board/feed-kudo-post-card.tsx:7:1
+Module not found: Can't resolve '@/components/kudos-board/feed-hero-badge'
+   5 | import { useTranslation } from "react-i18next";
+   6 | import type { KudoPost } from "@/components/kudos-board/feed-mock-data";
+>  7 | import HeroBadge from "@/components/kudos-board/feed-hero-badge";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import FeedImageLightbox from "@/components/kudos-board/feed-image-lightbox";
+   9 | import { IconSend, IconHeart, IconPen, IconLink } from "@/components/kudos-board/feed-icons";
+  10 |
+
+Import map: aliased to relative './components/kudos-board/feed-hero-badge' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component Browser]
+    ./components/kudos-board/feed-list.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component SSR]
+    ./components/kudos-board/feed-list.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  737644ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/sun-kudos:0
+[  737748ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0kla17-._.js:15305
+[  737871ms] Error: ./components/kudos-board/feed-kudo-post-card.tsx:7:1
+Module not found: Can't resolve '@/components/kudos-board/feed-hero-badge'
+   5 | import { useTranslation } from "react-i18next";
+   6 | import type { KudoPost } from "@/components/kudos-board/feed-mock-data";
+>  7 | import HeroBadge from "@/components/kudos-board/feed-hero-badge";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import FeedImageLightbox from "@/components/kudos-board/feed-image-lightbox";
+   9 | import { IconSend, IconHeart, IconPen, IconLink } from "@/components/kudos-board/feed-icons";
+  10 |
+
+Import map: aliased to relative './components/kudos-board/feed-hero-badge' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component Browser]
+    ./components/kudos-board/feed-list.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component SSR]
+    ./components/kudos-board/feed-list.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./components/kudos-board/feed-kudo-post-card.tsx:7:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/base-server.js:1753:26)
+[  737867ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  737874ms] [ERROR] ./components/kudos-board/feed-kudo-post-card.tsx:7:1
+Module not found: Can't resolve '@/components/kudos-board/feed-hero-badge'
+   5 | import { useTranslation } from "react-i18next";
+   6 | import type { KudoPost } from "@/components/kudos-board/feed-mock-data";
+>  7 | import HeroBadge from "@/components/kudos-board/feed-hero-badge";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import FeedImageLightbox from "@/components/kudos-board/feed-image-lightbox";
+   9 | import { IconSend, IconHeart, IconPen, IconLink } from "@/components/kudos-board/feed-icons";
+  10 |
+
+Import map: aliased to relative './components/kudos-board/feed-hero-badge' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component Browser]
+    ./components/kudos-board/feed-list.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component SSR]
+    ./components/kudos-board/feed-list.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  738060ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  738061ms] [ERROR] ./components/kudos-board/feed-kudo-post-card.tsx:7:1
+Module not found: Can't resolve '@/components/kudos-board/feed-hero-badge'
+   5 | import { useTranslation } from "react-i18next";
+   6 | import type { KudoPost } from "@/components/kudos-board/feed-mock-data";
+>  7 | import HeroBadge from "@/components/kudos-board/feed-hero-badge";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import FeedImageLightbox from "@/components/kudos-board/feed-image-lightbox";
+   9 | import { IconSend, IconHeart, IconPen, IconLink } from "@/components/kudos-board/feed-icons";
+  10 |
+
+Import map: aliased to relative './components/kudos-board/feed-hero-badge' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component Browser]
+    ./components/kudos-board/feed-list.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component SSR]
+    ./components/kudos-board/feed-list.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  738062ms] [ERROR] ./components/kudos-board/feed-kudo-post-card.tsx:7:1
+Module not found: Can't resolve '@/components/kudos-board/feed-hero-badge'
+   5 | import { useTranslation } from "react-i18next";
+   6 | import type { KudoPost } from "@/components/kudos-board/feed-mock-data";
+>  7 | import HeroBadge from "@/components/kudos-board/feed-hero-badge";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import FeedImageLightbox from "@/components/kudos-board/feed-image-lightbox";
+   9 | import { IconSend, IconHeart, IconPen, IconLink } from "@/components/kudos-board/feed-icons";
+  10 |
+
+Import map: aliased to relative './components/kudos-board/feed-hero-badge' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component Browser]
+    ./components/kudos-board/feed-list.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component SSR]
+    ./components/kudos-board/feed-list.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  738162ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  748306ms] [ERROR] ./components/kudos-board/feed-kudo-post-card.tsx:7:1
+Module not found: Can't resolve '@/components/kudos-board/feed-hero-badge'
+   5 | import { useTranslation } from "react-i18next";
+   6 | import type { KudoPost } from "@/components/kudos-board/feed-mock-data";
+>  7 | import HeroBadge from "@/components/kudos-board/feed-hero-badge";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import FeedImageLightbox from "@/components/kudos-board/feed-image-lightbox";
+   9 | import { IconSend, IconHeart, IconPen, IconLink } from "@/components/kudos-board/feed-icons";
+  10 |
+
+Import map: aliased to relative './components/kudos-board/feed-hero-badge' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component Browser]
+    ./components/kudos-board/feed-list.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component SSR]
+    ./components/kudos-board/feed-list.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  748314ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  756967ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  757017ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/sun-kudos:0
+[  757053ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0kla17-._.js:15305
+[  757074ms] Error: ./components/kudos-board/feed-kudo-post-card.tsx:7:1
+Module not found: Can't resolve '@/components/kudos-board/feed-hero-badge'
+   5 | import { useTranslation } from "react-i18next";
+   6 | import type { KudoPost } from "@/components/kudos-board/feed-mock-data";
+>  7 | import HeroBadge from "@/components/kudos-board/feed-hero-badge";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import FeedImageLightbox from "@/components/kudos-board/feed-image-lightbox";
+   9 | import { IconSend, IconHeart, IconPen, IconLink } from "@/components/kudos-board/feed-icons";
+  10 |
+
+Import map: aliased to relative './components/kudos-board/feed-hero-badge' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component Browser]
+    ./components/kudos-board/feed-list.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component SSR]
+    ./components/kudos-board/feed-list.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./components/kudos-board/feed-kudo-post-card.tsx:7:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/doan.thi.ngoc.anh@sun-asterisk.com/Documents/aidd-app/node_modules/next/dist/server/base-server.js:1753:26)
+[  757074ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  757077ms] [ERROR] ./components/kudos-board/feed-kudo-post-card.tsx:7:1
+Module not found: Can't resolve '@/components/kudos-board/feed-hero-badge'
+   5 | import { useTranslation } from "react-i18next";
+   6 | import type { KudoPost } from "@/components/kudos-board/feed-mock-data";
+>  7 | import HeroBadge from "@/components/kudos-board/feed-hero-badge";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import FeedImageLightbox from "@/components/kudos-board/feed-image-lightbox";
+   9 | import { IconSend, IconHeart, IconPen, IconLink } from "@/components/kudos-board/feed-icons";
+  10 |
+
+Import map: aliased to relative './components/kudos-board/feed-hero-badge' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component Browser]
+    ./components/kudos-board/feed-list.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component SSR]
+    ./components/kudos-board/feed-list.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  757120ms] [ERROR] ./components/kudos-board/feed-kudo-post-card.tsx:7:1
+Module not found: Can't resolve '@/components/kudos-board/feed-hero-badge'
+   5 | import { useTranslation } from "react-i18next";
+   6 | import type { KudoPost } from "@/components/kudos-board/feed-mock-data";
+>  7 | import HeroBadge from "@/components/kudos-board/feed-hero-badge";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import FeedImageLightbox from "@/components/kudos-board/feed-image-lightbox";
+   9 | import { IconSend, IconHeart, IconPen, IconLink } from "@/components/kudos-board/feed-icons";
+  10 |
+
+Import map: aliased to relative './components/kudos-board/feed-hero-badge' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component Browser]
+    ./components/kudos-board/feed-list.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component SSR]
+    ./components/kudos-board/feed-list.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  757179ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  757505ms] [ERROR] ./components/kudos-board/feed-kudo-post-card.tsx:7:1
+Module not found: Can't resolve '@/components/kudos-board/feed-hero-badge'
+   5 | import { useTranslation } from "react-i18next";
+   6 | import type { KudoPost } from "@/components/kudos-board/feed-mock-data";
+>  7 | import HeroBadge from "@/components/kudos-board/feed-hero-badge";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import FeedImageLightbox from "@/components/kudos-board/feed-image-lightbox";
+   9 | import { IconSend, IconHeart, IconPen, IconLink } from "@/components/kudos-board/feed-icons";
+  10 |
+
+Import map: aliased to relative './components/kudos-board/feed-hero-badge' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component Browser]
+    ./components/kudos-board/feed-list.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component SSR]
+    ./components/kudos-board/feed-list.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  757572ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  758031ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  758033ms] [ERROR] ./components/kudos-board/feed-kudo-post-card.tsx:7:1
+Module not found: Can't resolve '@/components/kudos-board/feed-hero-badge'
+   5 | import { useTranslation } from "react-i18next";
+   6 | import type { KudoPost } from "@/components/kudos-board/feed-mock-data";
+>  7 | import HeroBadge from "@/components/kudos-board/feed-hero-badge";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import FeedImageLightbox from "@/components/kudos-board/feed-image-lightbox";
+   9 | import { IconSend, IconHeart, IconPen, IconLink } from "@/components/kudos-board/feed-icons";
+  10 |
+
+Import map: aliased to relative './components/kudos-board/feed-hero-badge' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component Browser]
+    ./components/kudos-board/feed-list.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component Browser]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/feed-kudo-post-card.tsx [Client Component SSR]
+    ./components/kudos-board/feed-list.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Client Component SSR]
+    ./components/kudos-board/all-kudos-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[  760249ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  760479ms] [LOG] [Fast Refresh] done in 132ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  760745ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  760823ms] [LOG] [Fast Refresh] done in 178ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  760924ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  760958ms] [LOG] [Fast Refresh] done in 135ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[  761257ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  761294ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  761466ms] [WARNING] Image with src "http://localhost:3000/icons/flag_vn.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  770966ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  770968ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  773227ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  773280ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  875182ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  875210ms] [LOG] [Fast Refresh] done in 84ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  886352ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  886375ms] [LOG] [Fast Refresh] done in 67ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  889121ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  889126ms] [LOG] [Fast Refresh] done in 105ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  907072ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  907080ms] [ERROR] ./components/kudos-board/highlight-kudo-card.tsx:46:6
+Unterminated regexp literal
+  44 |         </div>
+  45 |       </div>
+> 46 |     </div>
+     |      ^^^^^
+  47 |   );
+  48 | }
+  49 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/highlight-kudo-card.tsx [Client Component Browser]
+    ./components/kudos-board/highlight-section.tsx [Client Component Browser]
+    ./components/kudos-board/highlight-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/highlight-kudo-card.tsx [Client Component SSR]
+    ./components/kudos-board/highlight-section.tsx [Client Component SSR]
+    ./components/kudos-board/highlight-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  914261ms] [ERROR] ./components/kudos-board/highlight-kudo-card.tsx:46:6
+Unterminated regexp literal
+  44 |         </div>
+  45 |       </div>
+> 46 |     </div>
+     |      ^^^^^
+  47 |   );
+  48 | }
+  49 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/highlight-kudo-card.tsx [Client Component Browser]
+    ./components/kudos-board/highlight-section.tsx [Client Component Browser]
+    ./components/kudos-board/highlight-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/highlight-kudo-card.tsx [Client Component SSR]
+    ./components/kudos-board/highlight-section.tsx [Client Component SSR]
+    ./components/kudos-board/highlight-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  914263ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  924667ms] [ERROR] ./components/kudos-board/highlight-kudo-card.tsx:46:6
+Unterminated regexp literal
+  44 |         </div>
+  45 |       </div>
+> 46 |     </div>
+     |      ^^^^^
+  47 |   );
+  48 | }
+  49 |
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./components/kudos-board/highlight-kudo-card.tsx [Client Component Browser]
+    ./components/kudos-board/highlight-section.tsx [Client Component Browser]
+    ./components/kudos-board/highlight-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/kudos-board/highlight-kudo-card.tsx [Client Component SSR]
+    ./components/kudos-board/highlight-section.tsx [Client Component SSR]
+    ./components/kudos-board/highlight-section.tsx [Server Component]
+    ./app/sun-kudos/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[  924670ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  928049ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  928393ms] [LOG] [Fast Refresh] done in 291ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  941817ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  941860ms] [LOG] [Fast Refresh] done in 144ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  944168ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  944199ms] [LOG] [Fast Refresh] done in 105ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  950584ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[  950585ms] [LOG] [Fast Refresh] done in 100ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477

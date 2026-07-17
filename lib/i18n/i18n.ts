@@ -12,6 +12,9 @@ import viLogin from "./locales/vi/login.json";
 import viCountdown from "./locales/vi/countdown.json";
 import viRules from "./locales/vi/rules.json";
 import viKudos from "./locales/vi/kudos.json";
+import viKudosBoard from "./locales/vi/kudos-board.json";
+import viKudosFeed from "./locales/vi/kudos-feed.json";
+import viKudosSpotlight from "./locales/vi/kudos-spotlight.json";
 import enCommon from "./locales/en/common.json";
 import enNav from "./locales/en/nav.json";
 import enHome from "./locales/en/home.json";
@@ -20,6 +23,9 @@ import enLogin from "./locales/en/login.json";
 import enCountdown from "./locales/en/countdown.json";
 import enRules from "./locales/en/rules.json";
 import enKudos from "./locales/en/kudos.json";
+import enKudosBoard from "./locales/en/kudos-board.json";
+import enKudosFeed from "./locales/en/kudos-feed.json";
+import enKudosSpotlight from "./locales/en/kudos-spotlight.json";
 
 export const resources = {
   vi: {
@@ -31,6 +37,9 @@ export const resources = {
     countdown: viCountdown,
     rules: viRules,
     kudos: viKudos,
+    kudosBoard: viKudosBoard,
+    kudosFeed: viKudosFeed,
+    kudosSpotlight: viKudosSpotlight,
   },
   en: {
     common: enCommon,
@@ -41,6 +50,9 @@ export const resources = {
     countdown: enCountdown,
     rules: enRules,
     kudos: enKudos,
+    kudosBoard: enKudosBoard,
+    kudosFeed: enKudosFeed,
+    kudosSpotlight: enKudosSpotlight,
   },
 } as const;
 

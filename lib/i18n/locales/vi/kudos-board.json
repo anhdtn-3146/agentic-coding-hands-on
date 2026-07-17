@@ -1,0 +1,30 @@
+{
+  "kvBanner": {
+    "title": "Hệ thống ghi nhận và cảm ơn",
+    "logoAlt": "Sun* Annual Awards 2025 KUDOS"
+  },
+  "writeBar": {
+    "placeholder": "Hôm nay, bạn muốn gửi lời cảm ơn và ghi nhận đến ai?"
+  },
+  "highlight": {
+    "eyebrow": "Sun* Annual Awards 2025",
+    "title": "HIGHLIGHT KUDOS",
+    "empty": "Hiện tại chưa có Kudos nào.",
+    "filters": {
+      "hashtag": "Hashtag",
+      "department": "Phòng ban",
+      "clear": "Bỏ chọn",
+      "empty": "Không có tùy chọn"
+    },
+    "card": {
+      "copyLink": "Copy Link",
+      "viewDetail": "Xem chi tiết",
+      "like": "Thích"
+    },
+    "pagination": {
+      "prev": "Slide trước",
+      "next": "Slide sau"
+    }
+  }
+}
+
