@@ -20,13 +20,3 @@ export const MOCK_SUNNERS: Sunner[] = [
   { id: "s7", name: "Hoàng Đức Anh" },
   { id: "s8", name: "Bùi Thị Mai" },
 ];
-
-/** Sample hashtags shown in the "+ Hashtag" picker dropdown. */
-export const MOCK_HASHTAGS: string[] = [
-  "TeamPlayer",
-  "NguoiTruyenLua",
-  "ProblemSolver",
-  "SangTao",
-  "TanTam",
-  "HoTroHetMinh",
-];

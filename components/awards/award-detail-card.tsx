@@ -2,11 +2,7 @@
 
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
-import {
-  IconDiamond,
-  IconLicense,
-  IconTarget,
-} from "@/components/common/icons";
+import CustomSvgIcon from "@/components/common/custom-svg-icon";
 
 /** One prize-value line (some awards, e.g. Signature 2025, have two — "Hoặc" separated). */
 export interface AwardPrize {
@@ -83,7 +79,7 @@ export default function AwardDetailCard({
         <div className="flex flex-col gap-6">
           {/* mm:214:2528 Frame 442 */}
           <div className="flex items-center gap-4">
-            <IconTarget className="text-[#FFEA9E]" />
+            <CustomSvgIcon src="/icons/icon_target.svg" className="h-6 w-6 text-[#FFEA9E]" />
             <h3 className="text-2xl leading-8 font-bold text-[#FFEA9E]">
               {title}
             </h3>
@@ -99,7 +95,7 @@ export default function AwardDetailCard({
 
         {/* mm:214:2533 content — quantity row */}
         <div className="flex items-center gap-4">
-          <IconDiamond className="text-white" />
+          <CustomSvgIcon src="/icons/icon_diamond.svg" className="h-6 w-6 text-white" />
           <span className="text-2xl leading-8 font-bold text-[#FFEA9E]">
             {t("awards:labels.quantity")}
           </span>
@@ -131,7 +127,7 @@ export default function AwardDetailCard({
               )}
               {/* mm:214:2542 Frame 497 */}
               <div className="flex items-center gap-4">
-                <IconLicense className="text-white" />
+                <CustomSvgIcon src="/icons/icon_license.svg" className="h-6 w-6 text-white" />
                 <span className="text-2xl leading-8 font-bold text-[#FFEA9E]">
                   {t("awards:labels.prizeValue")}
                 </span>

@@ -3,18 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTranslation } from "react-i18next";
-
-/** Route targets for the primary nav (real routes, no URL-hash anchors). */
-const HOME_ROUTE = "/about";
-const AWARDS_ROUTE = "/award-info";
-const KUDOS_ROUTE = "/sun-kudos";
-
-/** Primary nav items — each an i18n label key (namespace "nav") + its route. */
-const ROUTES = [
-  { key: "aboutSaa", url: HOME_ROUTE },
-  { key: "awardInformation", url: AWARDS_ROUTE },
-  { key: "sunKudos", url: KUDOS_ROUTE },
-] as const;
+import { ROUTERS } from "@/constants";
 
 const baseClasses = "p-4 text-sm font-bold tracking-[0.1px]";
 const activeClasses =
@@ -36,7 +25,7 @@ export default function NavLinks() {
   return (
     // mm:I2167:9091;178:653
     <nav className="flex items-center gap-6">
-      {ROUTES.map(({ key, url }) => {
+      {ROUTERS.map(({ key, url }) => {
         const isActive = pathname === url;
         return (
           <Link

@@ -1,0 +1,539 @@
+- generic [active] [ref=f1e1]:
+    - generic [ref=f1e2]:
+        - banner [ref=f1e3]:
+            - generic [ref=f1e4]:
+                - generic [ref=f1e5]:
+                    - link "Sun* Annual Awards 2025 home" [ref=f1e6] [cursor=pointer]:
+                        - /url: /about
+                        - img "Sun* Annual Awards 2025" [ref=f1e7]
+                    - navigation [ref=f1e8]:
+                        - link "About SAA 2025" [ref=f1e9] [cursor=pointer]:
+                            - /url: /about
+                        - link "Award Information" [ref=f1e10] [cursor=pointer]:
+                            - /url: /award-info
+                        - link "Sun* Kudos" [ref=f1e11] [cursor=pointer]:
+                            - /url: /sun-kudos
+                - generic [ref=f1e12]:
+                    - button "Notifications" [ref=f1e14]
+                    - button "Change language" [ref=f1e19] [cursor=pointer]:
+                        - generic [ref=f1e20]: VN
+                    - button "User profile" [ref=f1e25]
+        - main [ref=f1e28]:
+            - region "Hệ thống ghi nhận và cảm ơn" [ref=f1e29]:
+                - generic [ref=f1e30]:
+                    - heading "Hệ thống ghi nhận và cảm ơn" [level=1] [ref=f1e31]
+                    - img "Sun* Annual Awards 2025 KUDOS" [ref=f1e32]
+            - button "Hôm nay, bạn muốn gửi lời cảm ơn và ghi nhận đến ai?" [ref=f1e34]
+            - generic:
+                - dialog:
+                    - heading [level=2]: Gửi lời cám ơn và ghi nhận đến đồng đội
+                    - generic:
+                        - generic: Người nhận*
+                        - generic:
+                            - generic:
+                                - textbox:
+                                    - /placeholder: Tìm kiếm
+                                - button: ▾
+                    - generic:
+                        - generic:
+                            - generic: Danh hiệu*
+                            - textbox:
+                                - /placeholder: Dành tặng một danh hiệu cho đồng đội
+                        - paragraph: "Ví dụ: Người truyền động lực cho tôi. Danh hiệu sẽ hiển thị làm tiêu đề Kudos của bạn."
+                    - generic:
+                        - generic:
+                            - generic:
+                                - generic:
+                                    - button: B
+                                    - button: I
+                                    - button: S
+                                    - button: ≡
+                                    - button: 🔗
+                                    - button: ❞
+                                - link:
+                                    - /url: "#"
+                                    - text: Tiêu chuẩn cộng đồng
+                            - textbox:
+                                - /placeholder: Hãy gửi gắm lời cám ơn và ghi nhận đến đồng đội tại đây nhé!
+                        - paragraph: Bạn có thể “@ + tên” để nhắc tới đồng nghiệp khác
+                    - generic:
+                        - generic: Hashtag*
+                        - generic:
+                            - button:
+                                - generic:
+                                    - generic: +
+                                    - text: Hashtag
+                                - generic: Tối đa 5
+                    - generic:
+                        - generic: Image
+                        - generic:
+                            - generic:
+                                - generic:
+                                    - generic: +
+                                    - text: Image
+                                - generic: Tối đa 5
+                    - generic:
+                        - checkbox
+                        - text: Gửi lời cám ơn và ghi nhận ẩn danh
+                    - generic:
+                        - button:
+                            - text: Hủy
+                            - generic: ✕
+                        - button:
+                            - text: Gửi
+                            - generic: ▷
+            - generic [ref=f1e38]:
+                - generic [ref=f1e40]:
+                    - paragraph [ref=f1e41]: Sun* Annual Awards 2025
+                    - generic [ref=f1e43]:
+                        - heading "HIGHLIGHT KUDOS" [level=2] [ref=f1e44]
+                        - generic [ref=f1e45]:
+                            - button "Hashtag" [ref=f1e47]
+                            - button "Phòng ban" [ref=f1e51]
+                - generic [ref=f1e54]:
+                    - button "Slide trước" [disabled] [ref=f1e56]
+                    - generic [ref=f1e58]:
+                        - generic [ref=f1e59]:
+                            - generic [ref=f1e60]:
+                                - img "Huỳnh Dương Xuân Nhật" [ref=f1e61]
+                                - generic [ref=f1e62]:
+                                    - generic [ref=f1e63]: Huỳnh Dương Xuân Nhật
+                                    - generic [ref=f1e64]:
+                                        - generic [ref=f1e65]: CECV1
+                                        - generic [ref=f1e67]: Rising Hero
+                            - generic [ref=f1e68]:
+                                - img "Huỳnh Dương Xuân Nhật" [ref=f1e69]
+                                - generic [ref=f1e70]:
+                                    - generic [ref=f1e71]: Huỳnh Dương Xuân Nhật
+                                    - generic [ref=f1e72]:
+                                        - generic [ref=f1e73]: CECV1
+                                        - generic [ref=f1e75]: Legend Hero
+                        - generic [ref=f1e77]:
+                            - paragraph [ref=f1e78]: 10:00 - 10/30/2025
+                            - paragraph [ref=f1e79]: IDOL GIỚI TRẺ
+                            - paragraph [ref=f1e81]: Cảm ơn người em bình thường nhưng phi thường :D Cảm ơn sự chăm chỉ, cần mẫn của em đã tạo động lực rất...
+                            - paragraph [ref=f1e82]: "#Dedicated #Inspring #Dedicated #Inspring #Dedicated..."
+                        - generic [ref=f1e84]:
+                            - generic [ref=f1e85]:
+                                - button "Copy Link" [ref=f1e86] [cursor=pointer]
+                                - button "Xem chi tiết" [ref=f1e90] [cursor=pointer]
+                            - button "Thích" [ref=f1e92] [cursor=pointer]:
+                                - generic [ref=f1e93]: "1.000"
+                    - generic:
+                        - generic:
+                            - generic:
+                                - img "Huỳnh Dương Xuân Nhật"
+                                - generic:
+                                    - generic: Huỳnh Dương Xuân Nhật
+                                    - generic:
+                                        - generic: CECV1
+                                        - generic: Rising Hero
+                            - generic:
+                                - img "Huỳnh Dương Xuân Nhật"
+                                - generic:
+                                    - generic: Huỳnh Dương Xuân Nhật
+                                    - generic:
+                                        - generic: CECV1
+                                        - generic: Legend Hero
+                        - generic:
+                            - paragraph: 10:00 - 10/30/2025
+                            - paragraph: IDOL GIỚI TRẺ
+                            - generic:
+                                - paragraph: Cảm ơn người em bình thường nhưng phi thường :D Cảm ơn sự chăm chỉ, cần mẫn của em đã tạo động lực rất...
+                            - paragraph: "#Dedicated #Inspring #Dedicated #Inspring #Dedicated..."
+                        - generic:
+                            - generic:
+                                - button "Copy Link"
+                                - button "Xem chi tiết"
+                            - button "Thích":
+                                - generic: "1.000"
+                    - button "Slide sau" [ref=f1e97]
+                - generic [ref=f1e99]:
+                    - button "Slide trước" [disabled] [ref=f1e100]
+                    - paragraph [ref=f1e102]: 1/5
+                    - button "Slide sau" [ref=f1e103]
+            - generic [ref=f1e105]:
+                - generic [ref=f1e106]:
+                    - paragraph [ref=f1e107]: Sun* Annual Awards 2025
+                    - heading "SPOTLIGHT BOARD" [level=2] [ref=f1e109]
+                - generic [ref=f1e110]:
+                    - textbox "Tìm kiếm" [ref=f1e115]
+                    - paragraph [ref=f1e116]: 388 KUDOS
+                    - generic [ref=f1e117]:
+                        - button "Đỗ hoàng Hiệp" [ref=f1e119] [cursor=pointer]
+                        - button "Dương thúy An" [ref=f1e121] [cursor=pointer]
+                        - button "Dương thúy An" [ref=f1e123] [cursor=pointer]
+                        - button "Mai phương Thúy" [ref=f1e125] [cursor=pointer]
+                        - button "Mai phương Thúy" [ref=f1e127] [cursor=pointer]
+                        - button "Nguyễn Văn Quy" [ref=f1e129] [cursor=pointer]
+                        - button "Nguyễn Văn Quy" [ref=f1e131] [cursor=pointer]
+                        - button "Nguyễn Bá Chức" [ref=f1e133] [cursor=pointer]
+                        - button "Nguyễn Hoàng Linh" [ref=f1e135] [cursor=pointer]
+                        - button "Nguyễn Hoàng Linh" [ref=f1e137] [cursor=pointer]
+                        - button "Nguyễn Hoàng Linh" [ref=f1e139] [cursor=pointer]
+                        - button "Đỗ hoàng Hiệp" [ref=f1e141] [cursor=pointer]
+                        - button "Đỗ hoàng Hiệp" [ref=f1e143] [cursor=pointer]
+                        - button "Mai phương Thúy" [ref=f1e145] [cursor=pointer]
+                        - button "Lê Kiều Trang" [ref=f1e147] [cursor=pointer]
+                        - button "Lê Kiều Trang" [ref=f1e149] [cursor=pointer]
+                        - button "Lê Kiều Trang" [ref=f1e151] [cursor=pointer]
+                        - button "Nguyễn Văn Quy" [ref=f1e153] [cursor=pointer]
+                        - button "Nguyễn Bá Chức" [ref=f1e155] [cursor=pointer]
+                        - button "Nguyễn Hoàng Linh" [ref=f1e157] [cursor=pointer]
+                        - button "Nguyễn Văn Quy" [ref=f1e159] [cursor=pointer]
+                        - button "Nguyễn Bá Chức" [ref=f1e161] [cursor=pointer]
+                        - button "Lê Kiều Trang" [ref=f1e163] [cursor=pointer]
+                        - button "Lê Kiều Trang" [ref=f1e165] [cursor=pointer]
+                    - generic:
+                        - paragraph: 08:30PM Nguyễn Bá Chức đã nhận được một Kudos mới
+                        - paragraph: 08:30PM Nguyễn Bá Chức đã nhận được một Kudos mới
+                        - paragraph: 08:30PM Nguyễn Bá Chức đã nhận được một Kudos mới
+                        - paragraph: 08:30PM Nguyễn Bá Chức đã nhận được một Kudos mới
+                        - paragraph: 08:30PM Nguyễn Bá Chức đã nhận được một Kudos mới
+                        - paragraph: 08:30PM Nguyễn Bá Chức đã nhận được một Kudos mới
+                    - button "Pan/Zoom" [ref=f1e167]
+            - region "All Kudos" [ref=f1e170]:
+                - generic [ref=f1e171]:
+                    - paragraph [ref=f1e172]: Sun* Annual Awards 2025
+                    - heading "ALL KUDOS" [level=2] [ref=f1e174]
+                - generic [ref=f1e175]:
+                    - generic [ref=f1e177]:
+                        - article [ref=f1e178]:
+                            - generic [ref=f1e179]:
+                                - generic [ref=f1e182]:
+                                    - generic [ref=f1e183]: Huỳnh Dương Xuân Nhật
+                                    - generic [ref=f1e184]:
+                                        - generic [ref=f1e185]: CEVC10
+                                        - generic [ref=f1e186]: New Hero
+                                - generic [ref=f1e194]:
+                                    - generic [ref=f1e195]: Huỳnh Dương Xuân
+                                    - generic [ref=f1e196]:
+                                        - generic [ref=f1e197]: CEVC10
+                                        - generic [ref=f1e198]: Legend Hero
+                            - generic [ref=f1e202]:
+                                - paragraph [ref=f1e203]: 10:00 - 10/30/2025
+                                - generic [ref=f1e204]: IDOL GIỚI TRẺ
+                                - paragraph [ref=f1e208]: Cảm ơn người em bình thường nhưng phi thường :D Cảm ơn sự chăm chỉ, cần mẫn của em đã tạo động lực rất nhiều cho team, để luôn nhắc mình luôn phải nỗ lực hơn nữa trong công việc. <3 và cuộc sống...
+                                - generic [ref=f1e209]:
+                                    - button [ref=f1e210]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e212]
+                                    - button [ref=f1e213]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e215]
+                                    - button [ref=f1e216]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e218]
+                                    - button [ref=f1e219]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e221]
+                                    - button [ref=f1e222]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e224]
+                                - generic [ref=f1e225]:
+                                    - button "#Dedicated" [ref=f1e226]
+                                    - button "#Inspring" [ref=f1e227]
+                                    - button "#Dedicated" [ref=f1e228]
+                                    - button "#Inspring" [ref=f1e229]
+                                    - button "#Dedicated" [ref=f1e230]
+                                    - generic [ref=f1e231]: ...
+                            - generic [ref=f1e233]:
+                                - button "Thích lời cảm ơn này" [ref=f1e234]:
+                                    - generic [ref=f1e235]: "1.000"
+                                - button "Copy Link" [ref=f1e237]
+                        - article [ref=f1e240]:
+                            - generic [ref=f1e241]:
+                                - generic [ref=f1e244]:
+                                    - generic [ref=f1e245]: Huỳnh Dương Xuân Nhật
+                                    - generic [ref=f1e246]:
+                                        - generic [ref=f1e247]: CEVC10
+                                        - generic [ref=f1e248]: Rising Hero
+                                - generic [ref=f1e255]:
+                                    - generic [ref=f1e256]: Huỳnh Dương Xuân
+                                    - generic [ref=f1e257]:
+                                        - generic [ref=f1e258]: CEVC10
+                                        - generic [ref=f1e259]: Legend Hero
+                            - generic [ref=f1e263]:
+                                - paragraph [ref=f1e264]: 10:00 - 10/30/2025
+                                - generic [ref=f1e265]: IDOL GIỚI TRẺ
+                                - paragraph [ref=f1e269]: Cảm ơn người em bình thường nhưng phi thường :D Cảm ơn sự chăm chỉ, cần mẫn của em đã tạo động lực rất nhiều cho team, để luôn nhắc mình luôn phải nỗ lực hơn nữa trong công việc. <3 và cuộc sống...
+                                - generic [ref=f1e270]:
+                                    - button [ref=f1e271]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e273]
+                                    - button [ref=f1e274]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e276]
+                                    - button [ref=f1e277]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e279]
+                                    - button [ref=f1e280]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e282]
+                                    - button [ref=f1e283]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e285]
+                                - generic [ref=f1e286]:
+                                    - button "#Dedicated" [ref=f1e287]
+                                    - button "#Inspring" [ref=f1e288]
+                                    - button "#Dedicated" [ref=f1e289]
+                                    - button "#Inspring" [ref=f1e290]
+                                    - button "#Dedicated" [ref=f1e291]
+                                    - generic [ref=f1e292]: ...
+                            - generic [ref=f1e294]:
+                                - button "Thích lời cảm ơn này" [ref=f1e295]:
+                                    - generic [ref=f1e296]: "1.000"
+                                - button "Copy Link" [ref=f1e298]
+                        - article [ref=f1e301]:
+                            - generic [ref=f1e302]:
+                                - generic [ref=f1e305]:
+                                    - generic [ref=f1e306]: Huỳnh Dương Xuân Nhật
+                                    - generic [ref=f1e307]:
+                                        - generic [ref=f1e308]: CEVC10
+                                        - generic [ref=f1e309]: Super Hero
+                                - generic [ref=f1e316]:
+                                    - generic [ref=f1e317]: Huỳnh Dương Xuân
+                                    - generic [ref=f1e318]:
+                                        - generic [ref=f1e319]: CEVC10
+                                        - generic [ref=f1e320]: Legend Hero
+                            - generic [ref=f1e324]:
+                                - paragraph [ref=f1e325]: 10:00 - 10/30/2025
+                                - generic [ref=f1e326]: IDOL GIỚI TRẺ
+                                - paragraph [ref=f1e330]: Cảm ơn người em bình thường nhưng phi thường :D Cảm ơn sự chăm chỉ, cần mẫn của em đã tạo động lực rất nhiều cho team, để luôn nhắc mình luôn phải nỗ lực hơn nữa trong công việc. <3 và cuộc sống...
+                                - generic [ref=f1e331]:
+                                    - button [ref=f1e332]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e334]
+                                    - button [ref=f1e335]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e337]
+                                    - button [ref=f1e338]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e340]
+                                    - button [ref=f1e341]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e343]
+                                    - button [ref=f1e344]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e346]
+                                - generic [ref=f1e347]:
+                                    - button "#Dedicated" [ref=f1e348]
+                                    - button "#Inspring" [ref=f1e349]
+                                    - button "#Dedicated" [ref=f1e350]
+                                    - button "#Inspring" [ref=f1e351]
+                                    - button "#Dedicated" [ref=f1e352]
+                                    - generic [ref=f1e353]: ...
+                            - generic [ref=f1e355]:
+                                - button "Thích lời cảm ơn này" [ref=f1e356]:
+                                    - generic [ref=f1e357]: "1.000"
+                                - button "Copy Link" [ref=f1e359]
+                        - article [ref=f1e362]:
+                            - generic [ref=f1e363]:
+                                - generic [ref=f1e366]:
+                                    - generic [ref=f1e367]: Huỳnh Dương Xuân Nhật
+                                    - generic [ref=f1e368]:
+                                        - generic [ref=f1e369]: CEVC10
+                                        - generic [ref=f1e370]: Super Hero
+                                - generic [ref=f1e377]:
+                                    - generic [ref=f1e378]: Huỳnh Dương Xuân
+                                    - generic [ref=f1e379]:
+                                        - generic [ref=f1e380]: CEVC10
+                                        - generic [ref=f1e381]: Legend Hero
+                            - generic [ref=f1e385]:
+                                - paragraph [ref=f1e386]: 10:00 - 10/30/2025
+                                - generic [ref=f1e387]: IDOL GIỚI TRẺ
+                                - paragraph [ref=f1e391]: Cảm ơn người em bình thường nhưng phi thường :D Cảm ơn sự chăm chỉ, cần mẫn của em đã tạo động lực rất nhiều cho team, để luôn nhắc mình luôn phải nỗ lực hơn nữa trong công việc. <3 và cuộc sống...
+                                - generic [ref=f1e392]:
+                                    - button [ref=f1e393]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e395]
+                                    - button [ref=f1e396]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e398]
+                                    - button [ref=f1e399]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e401]
+                                    - button [ref=f1e402]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e404]
+                                    - button [ref=f1e405]:
+                                        - img "Ảnh đính kèm lời cảm ơn" [ref=f1e407]
+                                - generic [ref=f1e408]:
+                                    - button "#Dedicated" [ref=f1e409]
+                                    - button "#Inspring" [ref=f1e410]
+                                    - button "#Dedicated" [ref=f1e411]
+                                    - button "#Inspring" [ref=f1e412]
+                                    - button "#Dedicated" [ref=f1e413]
+                                    - generic [ref=f1e414]: ...
+                            - generic [ref=f1e416]:
+                                - button "Thích lời cảm ơn này" [ref=f1e417]:
+                                    - generic [ref=f1e418]: "1.000"
+                                - button "Copy Link" [ref=f1e420]
+                    - complementary [ref=f1e424]:
+                        - generic [ref=f1e425]:
+                            - generic [ref=f1e426]:
+                                - generic [ref=f1e427]: Số Kudos bạn nhận được
+                                - generic [ref=f1e428]: "25"
+                            - generic [ref=f1e429]:
+                                - generic [ref=f1e430]: Số Kudos bạn đã gửi
+                                - generic [ref=f1e431]: "25"
+                            - generic [ref=f1e432]:
+                                - generic [ref=f1e433]: Số tim bạn nhận được
+                                - generic [ref=f1e434]:
+                                    - generic [ref=f1e435]: x2
+                                    - generic [ref=f1e436]: "25"
+                            - generic [ref=f1e438]:
+                                - generic [ref=f1e439]: Số Secret Box bạn đã mở
+                                - generic [ref=f1e440]: "25"
+                            - generic [ref=f1e441]:
+                                - generic [ref=f1e442]: Số Secret Box chưa mở
+                                - generic [ref=f1e443]: "25"
+                            - button "Mở Secret Box" [ref=f1e444]
+                        - generic [ref=f1e446]:
+                            - heading "10 SUNNER CÓ SỰ THĂNG HẠNG MỚI NHẤT" [level=3] [ref=f1e447]
+                            - paragraph [ref=f1e448]: Chưa có dữ liệu
+                        - generic [ref=f1e449]:
+                            - heading "10 SUNNER NHẬN QUÀ MỚI NHẤT" [level=3] [ref=f1e450]
+                            - list [ref=f1e451]:
+                                - listitem [ref=f1e452]:
+                                    - generic [ref=f1e454]:
+                                        - generic [ref=f1e455]: Huỳnh Dương Xuân
+                                        - generic [ref=f1e456]: Nhận được 1 áo phông SAA
+                                - listitem [ref=f1e457]:
+                                    - generic [ref=f1e459]:
+                                        - generic [ref=f1e460]: Huỳnh Dương Xuân
+                                        - generic [ref=f1e461]: Nhận được 1 áo phông SAA
+                                - listitem [ref=f1e462]:
+                                    - generic [ref=f1e464]:
+                                        - generic [ref=f1e465]: Huỳnh Dương Xuân
+                                        - generic [ref=f1e466]: Nhận được 1 áo phông SAA
+                                - listitem [ref=f1e467]:
+                                    - generic [ref=f1e469]:
+                                        - generic [ref=f1e470]: Huỳnh Dương Xuân
+                                        - generic [ref=f1e471]: Nhận được 1 áo phông SAA
+                                - listitem [ref=f1e472]:
+                                    - generic [ref=f1e474]:
+                                        - generic [ref=f1e475]: Huỳnh Dương Xuân
+                                        - generic [ref=f1e476]: Nhận được 1 áo phông SAA
+        - contentinfo [ref=f1e477]:
+            - generic [ref=f1e478]:
+                - generic [ref=f1e479]:
+                    - link "Sun* Annual Awards 2025 home" [ref=f1e480] [cursor=pointer]:
+                        - /url: "#about"
+                        - img "Sun* Annual Awards 2025" [ref=f1e481]
+                    - navigation [ref=f1e482]:
+                        - link "About SAA 2025" [ref=f1e483] [cursor=pointer]:
+                            - /url: "#about"
+                        - link "Award Information" [ref=f1e484] [cursor=pointer]:
+                            - /url: "#awards"
+                        - link "Sun* Kudos" [ref=f1e485] [cursor=pointer]:
+                            - /url: "#kudos"
+                        - link "Tiêu chuẩn chung" [ref=f1e486] [cursor=pointer]:
+                            - /url: "#about"
+                - paragraph [ref=f1e487]: Bản quyền thuộc về Sun* © 2025
+        - button "/ Thể lệ SAA" [ref=f1e489]:
+            - generic [ref=f1e490]: /
+            - img "Thể lệ SAA" [ref=f1e495]
+        - generic:
+            - dialog:
+                - generic:
+                    - heading [level=2]: Thể lệ
+                    - generic:
+                        - heading [level=3]: "NGƯỜI NHẬN KUDOS: HUY HIỆU HERO CHO NHỮNG ẢNH HƯỞNG TÍCH CỰC"
+                        - paragraph: Dựa trên số lượng đồng đội gửi trao Kudos, bạn sẽ sở hữu Huy hiệu Hero tương ứng, được hiển thị trực tiếp cạnh tên profile
+                        - list:
+                            - listitem:
+                                - generic:
+                                    - generic:
+                                        - generic: New
+                                        - generic: Hero
+                                    - generic: Có 1-4 người gửi Kudos cho bạn
+                                - paragraph: Hành trình lan tỏa điều tốt đẹp bắt đầu – những lời cảm ơn và ghi nhận đầu tiên đã tìm đến bạn.
+                            - listitem:
+                                - generic:
+                                    - generic:
+                                        - generic: Rising
+                                        - generic: Hero
+                                    - generic: Có 5-9 người gửi Kudos cho bạn
+                                - paragraph: Hình ảnh bạn đang lớn dần trong trái tim đồng đội bằng sự tử tế và cống hiến của mình.
+                            - listitem:
+                                - generic:
+                                    - generic:
+                                        - generic: Super
+                                        - generic: Hero
+                                    - generic: Có 10–20 người gửi Kudos cho bạn
+                                - paragraph: Bạn đã trở thành biểu tượng được tin tưởng và yêu quý, người luôn sẵn sàng hỗ trợ và được nhiều đồng đội nhớ đến.
+                            - listitem:
+                                - generic:
+                                    - generic:
+                                        - generic: Legend
+                                        - generic: Hero
+                                    - generic: Có hơn 20 người gửi Kudos cho bạn
+                                - paragraph: Bạn đã trở thành huyền thoại – người để lại dấu ấn khó quên trong tập thể bằng trái tim và hành động của mình.
+                    - generic:
+                        - heading [level=3]: "NGƯỜI GỬI KUDOS: SƯU TẬP TRỌN BỘ 6 ICON, NHẬN NGAY PHẦN QUÀ BÍ ẨN"
+                        - paragraph: Mỗi lời Kudos bạn gửi sẽ được đăng tải trên hệ thống và nhận về những lượt ❤️ từ cộng đồng Sunner. Cứ mỗi 5 lượt ❤️, bạn sẽ được mở 1 Secret Box, với cơ hội nhận về một trong 6 icon độc quyền của SAA.
+                        - list:
+                            - listitem:
+                                - generic: REVIVAL
+                            - listitem:
+                                - generic: TOUCH OF LIGHT
+                            - listitem:
+                                - generic: STAY GOLD
+                            - listitem:
+                                - generic: FLOW TO HORIZON
+                            - listitem:
+                                - generic: BEYOND THE BOUNDARY
+                            - listitem:
+                                - generic: ROOT FURTHER
+                        - paragraph: Những Sunner thu thập trọn bộ 6 icon sẽ nhận về một phần quà bí ẩn từ SAA 2025.
+                    - generic:
+                        - heading [level=3]: KUDOS QUỐC DÂN
+                        - paragraph: "5 Kudos nhận về nhiều ❤️ nhất toàn Sun* sẽ chính thức trở thành Kudos Quốc Dân và được trao phần quà đặc biệt từ SAA 2025: Root Further."
+                - generic:
+                    - button:
+                        - generic: ✕
+                        - text: Đóng
+                    - button:
+                        - generic: ✎
+                        - text: Viết KUDOS
+        - generic:
+            - dialog:
+                - heading [level=2]: Gửi lời cám ơn và ghi nhận đến đồng đội
+                - generic:
+                    - generic: Người nhận*
+                    - generic:
+                        - generic:
+                            - textbox:
+                                - /placeholder: Tìm kiếm
+                            - button: ▾
+                - generic:
+                    - generic:
+                        - generic: Danh hiệu*
+                        - textbox:
+                            - /placeholder: Dành tặng một danh hiệu cho đồng đội
+                    - paragraph: "Ví dụ: Người truyền động lực cho tôi. Danh hiệu sẽ hiển thị làm tiêu đề Kudos của bạn."
+                - generic:
+                    - generic:
+                        - generic:
+                            - generic:
+                                - button: B
+                                - button: I
+                                - button: S
+                                - button: ≡
+                                - button: 🔗
+                                - button: ❞
+                            - link:
+                                - /url: "#"
+                                - text: Tiêu chuẩn cộng đồng
+                        - textbox:
+                            - /placeholder: Hãy gửi gắm lời cám ơn và ghi nhận đến đồng đội tại đây nhé!
+                    - paragraph: Bạn có thể “@ + tên” để nhắc tới đồng nghiệp khác
+                - generic:
+                    - generic: Hashtag*
+                    - generic:
+                        - button:
+                            - generic:
+                                - generic: +
+                                - text: Hashtag
+                            - generic: Tối đa 5
+                - generic:
+                    - generic: Image
+                    - generic:
+                        - generic:
+                            - generic:
+                                - generic: +
+                                - text: Image
+                            - generic: Tối đa 5
+                - generic:
+                    - checkbox
+                    - text: Gửi lời cám ơn và ghi nhận ẩn danh
+                - generic:
+                    - button:
+                        - text: Hủy
+                        - generic: ✕
+                    - button:
+                        - text: Gửi
+                        - generic: ▷
+    - button "Open Next.js Dev Tools" [ref=f1e501] [cursor=pointer]

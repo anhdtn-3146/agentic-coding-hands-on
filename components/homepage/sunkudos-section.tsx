@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Montserrat } from "next/font/google";
 import { useTranslation } from "react-i18next";
-import { IconUp } from "@/components/common/icons";
+import CustomSvgIcon from "@/components/common/custom-svg-icon";
 
 const montserrat = Montserrat({
   subsets: ["latin", "vietnamese"],
@@ -63,7 +63,7 @@ export default function SunkudosSection() {
               <span className="text-base font-bold leading-6 tracking-[0.15px]">
                 {t("common:detail")}
               </span>
-              <IconUp className="h-6 w-6" />
+              <CustomSvgIcon src="/icons/icon_up.svg" className="h-6 w-6" />
             </Link>
           </div>
         </div>

@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Image from "next/image";
 import { Montserrat } from "next/font/google";
 import { useTranslation } from "react-i18next";
+import HeroBadge, { type HeroBadgeType } from "@/components/common/hero-badge";
 
 const montserrat = Montserrat({
   subsets: ["latin", "vietnamese"],
@@ -11,18 +12,17 @@ const montserrat = Montserrat({
 });
 
 /**
- * Hero-tier badges — Figma "Thể lệ UPDATE" (b1Filzi9i6, MM_MEDIA_*_Hero). Each
- * is a fully-rounded pill with a gold (#FFEA9E) hairline border and white bold
- * label; New/Rising/Super sit on a dark-navy fill (first word tinted per tier),
- * while Legend Hero sits on a gold gradient fill. Labels are brand English,
- * shared across locales.
+ * Hero-tier badges — rendered via the shared <HeroBadge> component, which draws
+ * the authoritative exported artwork (109×19 gold-bordered pill) from
+ * public/kudos/badges/. `key` drives the i18n count/desc lookups; `type` +
+ * `label` are the badge props. Labels are brand English, shared across locales.
  */
-const HERO_TIERS = [
-  { key: "newHero", word: "New", wordClass: "text-white", legend: false },
-  { key: "risingHero", word: "Rising", wordClass: "text-[#7CD66B]", legend: false },
-  { key: "superHero", word: "Super", wordClass: "text-[#FF4D4D]", legend: false },
-  { key: "legendHero", word: "Legend", wordClass: "text-white", legend: true },
-] as const;
+const HERO_TIERS: { key: string; type: HeroBadgeType; label: string }[] = [
+  { key: "newHero", type: "new", label: "New Hero" },
+  { key: "risingHero", type: "rising", label: "Rising Hero" },
+  { key: "superHero", type: "super", label: "Super Hero" },
+  { key: "legendHero", type: "legend", label: "Legend Hero" },
+];
 
 /** The 6 collectible SAA icons — Figma "Thể lệ UPDATE" (MM_MEDIA_ Badge *).
  * Artwork exported from the design into public/rules/ (node media API is gated,
@@ -111,19 +111,10 @@ export default function SaaRulesDrawer({
               {t("rules:receiver.intro")}
             </p>
             <ul className="flex flex-col gap-4">
-              {HERO_TIERS.map(({ key, word, wordClass, legend }) => (
+              {HERO_TIERS.map(({ key, type, label }) => (
                 <li key={key} className="flex flex-col gap-1">
                   <div className="flex flex-wrap items-center gap-2">
-                    <span
-                      className={`inline-flex shrink-0 items-center rounded-full border border-[#FFEA9E] px-4 py-1 text-[13px] font-bold leading-5 [text-shadow:0_1px_2px_rgba(0,0,0,0.55)] ${
-                        legend
-                          ? "bg-linear-to-r from-[#FCE08A] via-[#F2C14E] to-[#E08A2B]"
-                          : "bg-linear-to-b from-[#0b2536] to-[#02121d]"
-                      }`}
-                    >
-                      <span className={wordClass}>{word}</span>
-                      <span className="ml-1 text-white">Hero</span>
-                    </span>
+                    <HeroBadge type={type} label={label} />
                     <span className="text-sm font-bold text-white">
                       {t(`rules:tiers.${key}.count`)}
                     </span>

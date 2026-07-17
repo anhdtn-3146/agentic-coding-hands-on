@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { IconTarget } from "@/components/common/icons";
+import CustomSvgIcon from "@/components/common/custom-svg-icon";
 
 /**
  * Left-side category navigation — Figma "mms_C_Menu list" (313:8459).
@@ -83,7 +83,10 @@ export default function CategoryNav() {
                 : "rounded text-white hover:bg-white/10"
             }`}
           >
-            <IconTarget className={isActive ? "text-[#FFEA9E]" : "text-white"} />
+            <CustomSvgIcon
+              src="/icons/icon_target.svg"
+              className={`h-6 w-6 ${isActive ? "text-[#FFEA9E]" : "text-white"}`}
+            />
             <span>{t(`awards:categories.${id}`)}</span>
           </a>
         );

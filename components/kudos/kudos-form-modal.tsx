@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Montserrat } from "next/font/google";
 import { useTranslation } from "react-i18next";
 import KudosRecipientSelect from "./kudos-recipient-select";
@@ -22,7 +22,7 @@ interface KudosFormState {
   recipient: string;
   danhHieu: string;
   content: string;
-  hashtags: string[];
+  hashtags: number[];
   images: KudosImagePreview[];
   anonymous: boolean;
 }
@@ -76,6 +76,15 @@ export default function KudosFormModal({ open, onClose }: KudosFormModalProps) {
     onClose();
   };
 
+  const isValid = useMemo(
+    () =>
+      form.recipient.trim() !== "" &&
+      form.danhHieu.trim() !== "" &&
+      form.content.trim() !== "" &&
+      form.hashtags.length > 0,
+    [form.content, form.danhHieu, form.hashtags.length, form.recipient],
+  );
+
   // Lock body scroll while the modal is open (mirrors SaaRulesDrawer). Kept
   // separate from the Esc listener so it only runs on open/close — re-running
   // per keystroke would clobber the saved overflow value.
@@ -96,12 +105,6 @@ export default function KudosFormModal({ open, onClose }: KudosFormModalProps) {
     document.addEventListener("keydown", onKey);
     return () => document.removeEventListener("keydown", onKey);
   });
-
-  const isValid =
-    form.recipient.trim() !== "" &&
-    form.danhHieu.trim() !== "" &&
-    form.content.trim() !== "" &&
-    form.hashtags.length > 0;
 
   const handleSubmit = () => {
     if (!isValid) return;
@@ -218,6 +221,7 @@ export default function KudosFormModal({ open, onClose }: KudosFormModalProps) {
               <button
                 type="button"
                 onClick={handleSubmit}
+                disabled={!isValid}
                 className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-[#FFEA9E] px-4 py-4 text-lg font-bold text-[#00101A] transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(255,234,158,0.45)] disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:translate-y-0 disabled:hover:shadow-none"
               >
                 {t("kudos:submit")}

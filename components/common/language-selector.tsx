@@ -3,19 +3,21 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
+import CustomSvgIcon from "@/components/common/custom-svg-icon";
 import { useClickOutside } from "@/hooks/use-click-outside";
 import { cookieName, resolveLocale, type Locale } from "@/lib/i18n/settings";
 
 interface LanguageOption {
   code: Locale;
   label: string;
-  /** Flag asset — only VN has one in the design; others fall back to a spacer. */
+  /** Flag asset (VN = Vietnam, EN = Union Jack per design). Optional so a
+   *  future language without a flag falls back to a spacer. */
   flagSrc?: string;
 }
 
 const LANGUAGES: LanguageOption[] = [
   { code: "vi", label: "VN", flagSrc: "/icons/flag_vn.svg" },
-  { code: "en", label: "EN" },
+  { code: "en", label: "EN", flagSrc: "/icons/flag_en.svg" },
 ];
 
 /**
@@ -72,13 +74,9 @@ export default function LanguageSelector() {
             {current.label}
           </span>
         </span>
-        <Image
+        <CustomSvgIcon
           src="/icons/icon_down.svg"
-          alt=""
-          width={24}
-          height={24}
-          aria-hidden="true"
-          className={`transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+          className={`h-6 w-6 text-white transition-transform duration-200 ${open ? "rotate-180" : ""}`}
         />
       </button>
 

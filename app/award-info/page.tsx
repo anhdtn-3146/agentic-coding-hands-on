@@ -6,7 +6,6 @@ import CategoryNav from "@/components/awards/category-nav";
 import AwardDetailSection from "@/components/awards/award-detail-section";
 import SunkudosSection from "@/components/homepage/sunkudos-section";
 import SiteFooter from "@/components/homepage/site-footer";
-import WidgetButton from "@/components/homepage/widget-button";
 
 // SAA brand font, exposed as --font-montserrat for the awards components
 // below (same pattern as app/page.tsx).
@@ -31,7 +30,9 @@ export const metadata: Metadata = {
  */
 export default function AwardsPage() {
   return (
-    <div className={`${montserrat.variable} relative min-h-screen w-full bg-[#00101A]`}>
+    <div
+      className={`${montserrat.variable} relative min-h-screen w-full bg-[#00101A]`}
+    >
       <SiteHeader />
       <main className="flex flex-col gap-30 pb-24">
         <KeyvisualBanner />
@@ -45,7 +46,6 @@ export default function AwardsPage() {
         <SunkudosSection />
       </main>
       <SiteFooter />
-      <WidgetButton />
     </div>
   );
 }

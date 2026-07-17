@@ -5,6 +5,7 @@ import { Montserrat } from "next/font/google";
 import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useClickOutside } from "@/hooks/use-click-outside";
+import CustomSvgIcon from "@/components/common/custom-svg-icon";
 import SaaRulesDrawer from "./saa-rules-drawer";
 import KudosFormModal from "../kudos/kudos-form-modal";
 
@@ -13,12 +14,17 @@ const montserrat = Montserrat({
   weight: ["700"],
 });
 
-/** Shared quick-action item styling (dropdown menu rows). */
-const ACTION_CLASS = "px-4 py-2 text-left text-sm font-bold hover:bg-[#00101A]/10";
+/** Expanded-state action pill — gold, 64px tall, icon + label (mm frame 7052). */
+const ACTION_PILL =
+  "flex h-16 items-center gap-2 rounded-[4px] bg-[#FFEA9E] px-4 text-2xl font-bold leading-8 text-[#00101A]";
+/** Soft drop-shadow + gold glow shared by the pills (effects not in MCP node data). */
+const PILL_SHADOW = {
+  boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px #FAE287",
+};
 
 function IconPen(props: React.SVGProps<SVGSVGElement>) {
   return (
-    // mm:I5022:15169;214:3839;186:1763
+    // mm:I313:9140;214:3732;186:1763
     <svg
       viewBox="0 0 24 24"
       fill="none"
@@ -34,15 +40,17 @@ function IconPen(props: React.SVGProps<SVGSVGElement>) {
 }
 
 /**
- * Floating "widget" button (viết kudos / thể lệ SAA quick actions).
+ * Floating "widget" button (viết kudos / thể lệ quick actions).
  *
- * NOTE: Figma marks this node with `position: absolute; top: 830px; right: 19px`
- * relative to the full page frame, which is how a static mockup represents an
- * element meant to stay visible while scrolling. Anchoring literally at
- * `top: 830px` would misplace it on viewports shorter/taller than the design
- * canvas, so this is implemented as a viewport-fixed bottom-right widget
- * (the conventional behavior for this kind of persistent action button),
- * keeping the exact horizontal offset (`right: 19px`) and box-shadow from Figma.
+ * Closed: a single gold pill trigger. Open (mm frame 7052 "Floating Action
+ * Button - phim nổi chức năng 2"): two labelled gold action pills — "Thể lệ"
+ * (flash icon → rules drawer) and "Viết KUDOS" (pen → kudos form) — above a
+ * round red "×" close button that replaces the trigger while open.
+ *
+ * NOTE: Figma anchors this at `top: 830px; right: 19px` on the full page frame,
+ * which is how a static mockup represents a scroll-persistent element. Anchoring
+ * literally would misplace it across viewports, so it stays viewport-fixed at
+ * the bottom-right, keeping the exact horizontal offset (`right: 19px`).
  */
 export default function WidgetButton() {
   const { t } = useTranslation();
@@ -57,97 +65,103 @@ export default function WidgetButton() {
     setKudosOpen(true);
   };
 
-  // Clicking outside or Esc closes the quick-actions dropdown.
+  // Clicking outside or Esc collapses the expanded FAB.
   useClickOutside(containerRef, () => setIsOpen(false), isOpen);
 
   return (
     <>
-    {/* mm:5022:15169 */}
-    <div
-      ref={containerRef}
-      className="fixed bottom-6 z-50 flex flex-col items-end gap-3"
-      style={{ right: "19px" }}
-    >
-      {/* Quick-actions dropdown — presentational only, on-page scroll links */}
-      {isOpen && (
-        <div
-          role="menu"
-          className={`${montserrat.className} flex w-48 flex-col overflow-hidden rounded-xl bg-[#FFEA9E] py-2 text-[#00101A]`}
-          style={{
-            boxShadow: "0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 0 6px 0 #FAE287",
-          }}
-        >
-          {/* Viết Kudos — opens the Kudos form modal. */}
-          <button
-            type="button"
-            role="menuitem"
-            className={ACTION_CLASS}
-            onClick={() => {
-              setIsOpen(false);
-              setKudosOpen(true);
-            }}
-          >
-            {t("common:widget.writeKudos")}
-          </button>
-          {/* Thể lệ SAA — opens the rules drawer. */}
-          <button
-            type="button"
-            role="menuitem"
-            className={ACTION_CLASS}
-            onClick={() => {
-              setIsOpen(false);
-              setRulesOpen(true);
-            }}
-          >
-            {t("common:widget.saaRules")}
-          </button>
-        </div>
-      )}
-
-      {/* mm:I5022:15169;214:3839 — pill 106x64, gold drop-shadow follows the
-          rounded shape (filter, not box-shadow, to avoid a rectangular glow). */}
-      <button
-        type="button"
-        aria-haspopup="menu"
-        aria-expanded={isOpen}
-        onClick={() => setIsOpen((prev) => !prev)}
-        className="flex h-16 w-26.5 items-center gap-2 rounded-full bg-[#FFEA9E] p-4"
-        style={{
-          filter:
-            "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 0px 6px #FAE287)",
-        }}
+      {/* mm:313:9140 — gap 20px, right-aligned, bottom-right */}
+      <div
+        ref={containerRef}
+        className="fixed bottom-6 z-50 flex flex-col items-end gap-5"
+        style={{ right: "19px" }}
       >
-        {/* mm:I5022:15169;214:3839;186:1935 */}
-        <span className="flex items-center gap-2 text-[#00101A]">
-          {/* mm:I5022:15169;214:3839;186:1763 */}
-          <IconPen className="h-6 w-6" />
-          {/* mm:I5022:15169;214:3839;186:1568 */}
-          <span
-            className={`${montserrat.className} text-2xl font-bold leading-8`}
+        {isOpen ? (
+          <>
+            {/* mm:I313:9140;214:3799 A_Button thể lệ */}
+            <button
+              type="button"
+              onClick={() => {
+                setIsOpen(false);
+                setRulesOpen(true);
+              }}
+              className={`${montserrat.className} ${ACTION_PILL}`}
+              style={PILL_SHADOW}
+            >
+              {/* mm:I313:9140;214:3799;186:1763 MM_MEDIA_LOGO (flash) */}
+              <CustomSvgIcon src="/icons/widget-flash.svg" className="h-6 w-6" />
+              {t("common:widget.saaRules")}
+            </button>
+
+            {/* mm:I313:9140;214:3732 B_Button viết kudos */}
+            <button
+              type="button"
+              onClick={() => {
+                setIsOpen(false);
+                setKudosOpen(true);
+              }}
+              className={`${montserrat.className} ${ACTION_PILL}`}
+              style={PILL_SHADOW}
+            >
+              {/* mm:I313:9140;214:3732;186:1763 MM_MEDIA_Pen */}
+              <IconPen className="h-6 w-6" />
+              {t("common:widget.writeKudos")}
+            </button>
+
+            {/* mm:I313:9140;214:3827 C_Button huỷ — red round close */}
+            <button
+              type="button"
+              aria-label={t("common:widget.close")}
+              onClick={() => setIsOpen(false)}
+              className="flex h-14 w-14 items-center justify-center rounded-full bg-[#D4271D] text-white"
+              style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}
+            >
+              {/* mm:I313:9140;214:3827;186:1766 MM_MEDIA_Close */}
+              <CustomSvgIcon src="/icons/widget-close.svg" className="h-6 w-6" />
+            </button>
+          </>
+        ) : (
+          /* Closed trigger pill — pill 106x64, gold drop-shadow follows the
+             rounded shape (filter, not box-shadow, to avoid a rectangular glow). */
+          <button
+            type="button"
+            aria-haspopup="menu"
+            aria-expanded={isOpen}
+            onClick={() => setIsOpen(true)}
+            className="flex h-16 w-26.5 items-center gap-2 rounded-full bg-[#FFEA9E] p-4"
+            style={{
+              filter:
+                "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 0px 6px #FAE287)",
+            }}
           >
-            /
-          </span>
-        </span>
-        {/* mm:I5022:15169;214:3839;186:1766 -> mm:I5022:15169;214:3839;186:1766;214:3762 */}
-        <span className="relative h-6 w-6 shrink-0">
-          <Image
-            src="/icons/kudos_logo_small.svg"
-            alt={t("common:widget.saaRules")}
-            fill
-            sizes="24px"
-            className="object-contain"
-          />
-        </span>
-      </button>
-    </div>
+            <span className="flex items-center gap-2 text-[#00101A]">
+              <IconPen className="h-6 w-6" />
+              <span
+                className={`${montserrat.className} text-2xl font-bold leading-8`}
+              >
+                /
+              </span>
+            </span>
+            <span className="relative h-6 w-6 shrink-0">
+              <Image
+                src="/icons/kudos_logo_small.svg"
+                alt={t("common:widget.saaRules")}
+                fill
+                sizes="24px"
+                className="object-contain"
+              />
+            </span>
+          </button>
+        )}
+      </div>
 
-    <SaaRulesDrawer
-      open={rulesOpen}
-      onClose={() => setRulesOpen(false)}
-      onWriteKudos={handleWriteKudos}
-    />
+      <SaaRulesDrawer
+        open={rulesOpen}
+        onClose={() => setRulesOpen(false)}
+        onWriteKudos={handleWriteKudos}
+      />
 
-    <KudosFormModal open={kudosOpen} onClose={() => setKudosOpen(false)} />
+      <KudosFormModal open={kudosOpen} onClose={() => setKudosOpen(false)} />
     </>
   );
 }

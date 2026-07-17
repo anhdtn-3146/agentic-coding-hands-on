@@ -10,8 +10,9 @@
     "empty": "No new notifications"
   },
   "widget": {
-    "writeKudos": "Write Kudos",
-    "saaRules": "SAA Rules"
+    "writeKudos": "Write KUDOS",
+    "saaRules": "Rules",
+    "close": "Close"
   },
   "kudos": {
     "kicker": "Recognition Movement",

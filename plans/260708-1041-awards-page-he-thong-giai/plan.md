@@ -1,5 +1,5 @@
 ---
-status: in_progress
+status: completed
 blockedBy: []
 blocks: []
 ---
@@ -18,8 +18,8 @@ Track A (UI) and Track B (integration) run in parallel — neither blocks the ot
 
 | Phase | Track | Title | Status |
 |-------|-------|-------|--------|
-| [phase-01](./phase-01-awards-page-ui.md) | A | Awards page UI (pixel-perfect from Figma) | ⏳ pending |
-| [phase-02](./phase-02-nav-integration.md) | B | Top-nav wiring: "Award Information" → `/he-thong-giai` | ⏳ pending |
+| [phase-01](./phase-01-awards-page-ui.md) | A | Awards page UI (pixel-perfect from Figma) | ✅ done |
+| [phase-02](./phase-02-nav-integration.md) | B | Top-nav wiring: "Award Information" → `/he-thong-giai` | ✅ done |
 
 ## Reuse Map (existing, do NOT recreate)
 - `components/homepage/site-header.tsx` (+ `common/nav-links`, `notification-menu`, `language-selector`, `homepage/user-menu`) — top nav, reuse as-is.
