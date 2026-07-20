@@ -6,7 +6,7 @@ import WriteKudosBar from "@/components/kudos-board/write-kudos-bar";
 import HighlightSection from "@/components/kudos-board/highlight-section";
 import SpotlightSection from "@/components/kudos-board/spotlight-section";
 import AllKudosSection from "@/components/kudos-board/all-kudos-section";
-import SiteFooter from "@/components/homepage/site-footer";
+import SiteFooter from "@/components/common/site-footer";
 
 // SAA brand font, exposed as --font-montserrat for the kudos-board components
 // (same pattern as app/page.tsx and app/award-info/page.tsx).

@@ -43,7 +43,8 @@ export default function KudosHashtagInput({
     }
   };
 
-  const removeTag = (value: number) => onChange(tags.filter((v) => v !== value));
+  const removeTag = (value: number) =>
+    onChange(tags.filter((v) => v !== value));
 
   return (
     <div ref={rootRef} className="relative flex flex-wrap items-center gap-2">
@@ -55,7 +56,9 @@ export default function KudosHashtagInput({
           #{saaHashtagLabel(tag)}
           <button
             type="button"
-            aria-label={t("kudos:hashtag.remove", { tag: saaHashtagLabel(tag) })}
+            aria-label={t("kudos:hashtag.remove", {
+              tag: saaHashtagLabel(tag),
+            })}
             onClick={() => removeTag(tag)}
             className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-[#D4271D] text-[10px] leading-none text-white"
           >

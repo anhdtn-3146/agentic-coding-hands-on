@@ -5,7 +5,7 @@ import KeyvisualBanner from "@/components/awards/keyvisual-banner";
 import CategoryNav from "@/components/awards/category-nav";
 import AwardDetailSection from "@/components/awards/award-detail-section";
 import SunkudosSection from "@/components/homepage/sunkudos-section";
-import SiteFooter from "@/components/homepage/site-footer";
+import SiteFooter from "@/components/common/site-footer";
 
 // SAA brand font, exposed as --font-montserrat for the awards components
 // below (same pattern as app/page.tsx).

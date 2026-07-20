@@ -6,6 +6,9 @@
   "writeBar": {
     "placeholder": "Hôm nay, bạn muốn gửi lời cảm ơn và ghi nhận đến ai?"
   },
+  "searchProfile": {
+    "placeholder": "Tìm kiếm profile Sunner"
+  },
   "highlight": {
     "eyebrow": "Sun* Annual Awards 2025",
     "title": "HIGHLIGHT KUDOS",
@@ -27,4 +30,3 @@
     }
   }
 }
-

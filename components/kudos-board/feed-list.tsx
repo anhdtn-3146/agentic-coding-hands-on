@@ -8,6 +8,7 @@ import {
   type KudoPost,
 } from "@/components/kudos-board/feed-mock-data";
 import KudoPostCard from "@/components/kudos-board/feed-kudo-post-card";
+import { saaHashtagLabel } from "@/constants";
 
 interface FeedListProps {
   onCopyLink: (url: string) => void;
@@ -21,7 +22,7 @@ interface FeedListProps {
 export default function FeedList({ onCopyLink }: FeedListProps) {
   const { t } = useTranslation();
   const [pagesLoaded, setPagesLoaded] = useState(1);
-  const [selectedHashtag, setSelectedHashtag] = useState<string | null>(null);
+  const [selectedHashtag, setSelectedHashtag] = useState<number | null>(null);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
 
   const posts = useMemo(() => {
@@ -31,7 +32,7 @@ export default function FeedList({ onCopyLink }: FeedListProps) {
     }
     if (!selectedHashtag) return loaded;
     return loaded.filter((post) =>
-      post.hashtags.some((tag) => tag.toLowerCase() === selectedHashtag.toLowerCase()),
+      post.hashtags.some((tag) => tag === selectedHashtag),
     );
   }, [pagesLoaded, selectedHashtag]);
 
@@ -45,7 +46,9 @@ export default function FeedList({ onCopyLink }: FeedListProps) {
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0]?.isIntersecting) {
-          setPagesLoaded((count) => Math.min(count + 1, KUDO_POSTS_TOTAL_PAGES));
+          setPagesLoaded((count) =>
+            Math.min(count + 1, KUDO_POSTS_TOTAL_PAGES),
+          );
         }
       },
       { rootMargin: "200px" },
@@ -54,8 +57,8 @@ export default function FeedList({ onCopyLink }: FeedListProps) {
     return () => observer.disconnect();
   }, [hasMore]);
 
-  function handleHashtagClick(tag: string) {
-    setSelectedHashtag((current) => (current?.toLowerCase() === tag.toLowerCase() ? null : tag));
+  function handleHashtagClick(tag: number) {
+    setSelectedHashtag((current) => (current === tag ? null : tag));
   }
 
   return (
@@ -66,7 +69,7 @@ export default function FeedList({ onCopyLink }: FeedListProps) {
           onClick={() => setSelectedHashtag(null)}
           className="rounded-full border border-[#FFEA9E] px-4 py-1 text-sm font-bold text-[#FFEA9E] hover:bg-[#FFEA9E]/10"
         >
-          #{selectedHashtag} ×
+          #{saaHashtagLabel(selectedHashtag)} ×
         </button>
       )}
 
@@ -85,9 +88,7 @@ export default function FeedList({ onCopyLink }: FeedListProps) {
         ))
       )}
 
-      {hasMore && (
-        <div ref={sentinelRef} className="h-4 w-full" aria-hidden />
-      )}
+      {hasMore && <div ref={sentinelRef} className="h-4 w-full" aria-hidden />}
     </div>
   );
 }

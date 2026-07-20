@@ -7,19 +7,26 @@ import type { KudoPost } from "@/components/kudos-board/feed-mock-data";
 import HeroBadge from "@/components/common/hero-badge";
 import FeedImageLightbox from "@/components/kudos-board/feed-image-lightbox";
 import CustomSvgIcon from "@/components/common/custom-svg-icon";
+import KudosFormModal from "../kudos/kudos-form-modal";
+import { saaHashtagLabel } from "@/constants";
 
 const MAX_HASHTAGS = 5;
 
 interface KudoPostCardProps {
   post: KudoPost;
-  onHashtagClick: (tag: string) => void;
+  onHashtagClick: (tag: number) => void;
   onCopyLink: (url: string) => void;
 }
 
 /** `C.3_KUDO Post` instance (componentId 256:5231) — one card in the feed. */
-export default function KudoPostCard({ post, onHashtagClick, onCopyLink }: KudoPostCardProps) {
+export default function KudoPostCard({
+  post,
+  onHashtagClick,
+  onCopyLink,
+}: KudoPostCardProps) {
   const { t } = useTranslation();
   const [liked, setLiked] = useState(false);
+  const [open, setOpen] = useState(false);
   const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);
   // Count is derived from `liked` (single source of truth) — keeping it as a
   // second state can drift from the flag under batched rapid clicks.
@@ -47,7 +54,10 @@ export default function KudoPostCard({ post, onHashtagClick, onCopyLink }: KudoP
       <div className="flex w-full items-start justify-between gap-6">
         <PersonBlock person={post.sender} />
         <div className="flex h-[123px] w-8 items-start py-4">
-          <CustomSvgIcon src="/kudos/icons/send.svg" className="h-8 w-8 text-[#00101A]" />
+          <CustomSvgIcon
+            src="/kudos/icons/send.svg"
+            className="h-8 w-8 text-[#00101A]"
+          />
         </div>
         <PersonBlock person={post.receiver} />
       </div>
@@ -56,19 +66,29 @@ export default function KudoPostCard({ post, onHashtagClick, onCopyLink }: KudoP
 
       {/* mm:256:5645 Content */}
       <div className="flex w-full flex-col items-start gap-4">
-        <p className="w-full text-base font-bold tracking-[0.5px] text-[#999]">{post.time}</p>
+        <p className="w-full text-base font-bold tracking-[0.5px] text-[#999]">
+          {post.time}
+        </p>
 
         {/* mm:2234:33038 D.4_hashtag (category chip) */}
         <div className="flex w-full items-center gap-2">
           <span className="text-base font-bold tracking-[0.5px] text-[#00101A]">
             {post.category}
           </span>
-          <CustomSvgIcon src="/kudos/icons/pen.svg" className="h-8 w-8 text-[#00101A]" />
+          <button
+            type="button"
+            onClick={() => setOpen(true)}
+            className="font-(family-name:--font-montserrat) flex cursor-pointer items-center gap-1 rounded px-4 py-4 text-base leading-6 font-bold tracking-[0.15px] text-[#00101A] hover:bg-[#00101A]/5"
+          >
+            <CustomSvgIcon src="/kudos/icons/pen.svg" className="h-6 w-6" />
+          </button>
         </div>
 
         {/* mm:662:11382 Frame 425 (message box) */}
         <div className="w-full self-stretch rounded-xl border border-[#FFEA9E] bg-[#FFEA9E]/40 px-6 py-4">
-          <p className="line-clamp-5 text-xl leading-8 font-bold text-[#00101A]">{post.message}</p>
+          <p className="line-clamp-5 text-xl leading-8 font-bold text-[#00101A]">
+            {post.message}
+          </p>
         </div>
 
         {/* mm:256:5176 C.3.6_Image đính kèm */}
@@ -102,7 +122,7 @@ export default function KudoPostCard({ post, onHashtagClick, onCopyLink }: KudoP
               onClick={() => onHashtagClick(tag)}
               className="text-base font-bold tracking-[0.5px] text-[#D4271D] hover:underline"
             >
-              #{tag}
+              #{saaHashtagLabel(tag)}
             </button>
           ))}
           {hasMoreHashtags && (
@@ -152,6 +172,12 @@ export default function KudoPostCard({ post, onHashtagClick, onCopyLink }: KudoP
           onClose={() => setLightboxSrc(null)}
         />
       )}
+
+      <KudosFormModal
+        open={open}
+        onClose={() => setOpen(false)}
+        initialValues={post}
+      />
     </article>
   );
 }
@@ -162,14 +188,22 @@ function PersonBlock({ person }: { person: KudoPost["sender"] }) {
   return (
     <div className="flex w-[235px] flex-col items-center justify-center gap-3 text-center">
       <span className="relative block h-16 w-16 shrink-0 cursor-default overflow-hidden rounded-full border-[1.869px] border-white">
-        <Image src={person.avatar} alt="" fill className="object-cover" sizes="64px" />
+        <Image
+          src={person.avatar}
+          alt=""
+          fill
+          className="object-cover"
+          sizes="64px"
+        />
       </span>
       <span className="flex w-full flex-col items-center gap-0.5">
         <span className="w-full cursor-default text-base font-bold tracking-[0.15px] text-[#00101A]">
           {person.name}
         </span>
         <span className="flex items-center justify-center gap-2.5">
-          <span className="text-sm font-bold tracking-[0.1px] text-[#999]">{person.dept}</span>
+          <span className="text-sm font-bold tracking-[0.1px] text-[#999]">
+            {person.dept}
+          </span>
           <HeroBadge type={person.badge} label={person.badgeLabel} />
         </span>
       </span>

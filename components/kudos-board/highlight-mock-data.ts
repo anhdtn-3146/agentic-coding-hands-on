@@ -15,7 +15,7 @@ import type { HeroBadgeType } from "@/components/common/hero-badge";
 
 export interface HighlightPerson {
   name: string;
-  department: string;
+  department: number;
   /** Hero-tier badge shown next to the department code (shared `HeroBadge`). */
   badge: HeroBadgeType;
   badgeLabel: string;
@@ -31,14 +31,14 @@ export interface HighlightKudo {
   title: string;
   message: string;
   /** Up to 5 shown in one row; `hashtagsOverflow` mirrors the design's trailing "...". */
-  hashtags: string[];
+  hashtags: number[];
   hashtagsOverflow: boolean;
   likes: number;
 }
 
 const SENDER: HighlightPerson = {
   name: "Huỳnh Dương Xuân Nhật",
-  department: "CECV1",
+  department: 1,
   badge: "rising",
   badgeLabel: "Rising Hero",
   avatarSrc: "/kudos/highlight/avatar-1.png",
@@ -46,7 +46,7 @@ const SENDER: HighlightPerson = {
 
 const RECEIVER: HighlightPerson = {
   name: "Huỳnh Dương Xuân Nhật",
-  department: "CECV1",
+  department: 2,
   badge: "legend",
   badgeLabel: "Legend Hero",
   avatarSrc: "/kudos/highlight/avatar-2.png",
@@ -59,7 +59,7 @@ const BASE_CARD: Omit<HighlightKudo, "id"> = {
   title: "IDOL GIỚI TRẺ",
   message:
     "Cảm ơn người em bình thường nhưng phi thường :D Cảm ơn sự chăm chỉ, cần mẫn của em đã tạo động lực rất...",
-  hashtags: ["Dedicated", "Inspring", "Dedicated", "Inspring", "Dedicated"],
+  hashtags: [1, 2],
   hashtagsOverflow: true,
   likes: 1000,
 };
@@ -67,12 +67,4 @@ const BASE_CARD: Omit<HighlightKudo, "id"> = {
 export const highlightKudos: HighlightKudo[] = Array.from(
   { length: 5 },
   (_, i) => ({ ...BASE_CARD, id: `highlight-${i + 1}` }),
-);
-
-/** Filter option lists — extracted from the card content above (design has no distinct dropdown-panel data for this screen). */
-export const highlightHashtagOptions: string[] = Array.from(
-  new Set(BASE_CARD.hashtags),
-);
-export const highlightDepartmentOptions: string[] = Array.from(
-  new Set([SENDER.department, RECEIVER.department]),
 );

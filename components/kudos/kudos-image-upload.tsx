@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { KUDOS_MAX_IMAGES } from "@/constants";
 
 export interface KudosImagePreview {
-  file: File;
+  file?: File;
   url: string;
 }
 
@@ -44,7 +44,10 @@ export default function KudosImageUpload({
     if (!files || files.length === 0) return;
     const room = KUDOS_MAX_IMAGES - images.length;
     const picked = Array.from(files).slice(0, room);
-    const next = picked.map((file) => ({ file, url: URL.createObjectURL(file) }));
+    const next = picked.map((file) => ({
+      file,
+      url: URL.createObjectURL(file),
+    }));
     onChange([...images, ...next]);
     if (inputRef.current) inputRef.current.value = "";
   };
@@ -59,7 +62,7 @@ export default function KudosImageUpload({
     <div className="flex flex-wrap items-center gap-4">
       {images.map((img, i) => (
         <div
-          key={img.url}
+          key={`${img.url}-${i}`}
           className="relative h-20 w-20 shrink-0 rounded-[18px] border border-[#998C5F] bg-white"
         >
           {/* Rounding lives on the img (not overflow-hidden on the wrapper) so

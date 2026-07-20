@@ -4,23 +4,10 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import HighlightFilterDropdown from "./highlight-filter-dropdown";
 import HighlightKudoCard from "./highlight-kudo-card";
-import {
-  highlightDepartmentOptions,
-  highlightHashtagOptions,
-  highlightKudos,
-} from "./highlight-mock-data";
+import { highlightKudos } from "./highlight-mock-data";
 import { NavArrowButton } from "./highlight-nav-arrow";
 import { useCopyLinkToast } from "./use-copy-link-toast";
-import { SAA_HASHTAGS } from "@/constants";
-
-// Hashtag filter options: the deduped union of the hashtags actually present on
-// the cards and the shared canonical SAA_HASHTAGS list (so the filter offers the
-// same hashtags as the write-form picker). Uses the SAA labels — the board
-// filter matches string hashtags on the cards, not the picker's numeric ids.
-// Single-select behavior is unchanged.
-const hashtagFilterOptions = Array.from(
-  new Set([...highlightHashtagOptions, ...SAA_HASHTAGS.map((h) => h.label)]),
-);
+import { DEPARTMENTS, SAA_HASHTAGS } from "@/constants";
 
 /**
  * HIGHLIGHT KUDOS carousel — Figma "B_Highlight" (2940:13451): header +
@@ -30,8 +17,8 @@ const hashtagFilterOptions = Array.from(
 export default function HighlightSection() {
   const { t } = useTranslation();
   const { copyLink, toast } = useCopyLinkToast();
-  const [hashtag, setHashtag] = useState<string | null>(null);
-  const [department, setDepartment] = useState<string | null>(null);
+  const [hashtag, setHashtag] = useState<number | null>(null);
+  const [department, setDepartment] = useState<number | null>(null);
   const [index, setIndex] = useState(0);
   // Liked kudos tracked by id (not slot position) so the like state follows the
   // kudo as the carousel navigates. Keyed here rather than in the card because
@@ -47,22 +34,25 @@ export default function HighlightSection() {
     });
   };
 
-  const filtered = highlightKudos.filter(
-    (k) =>
-      (!hashtag || k.hashtags.includes(hashtag)) &&
-      (!department ||
-        k.sender.department === department ||
-        k.receiver.department === department),
-  );
+  const filtered = highlightKudos.filter((k) => {
+    const hashtagMatched = hashtag === null || k.hashtags.includes(hashtag);
+
+    const departmentMatched =
+      department === null ||
+      k.sender.department === department ||
+      k.receiver.department === department;
+
+    return hashtagMatched && departmentMatched;
+  });
 
   // Changing a filter invalidates the current slide position — jump back to
   // slide 1. Reset happens in the same event as the selection change itself
   // (not a useEffect) to avoid a cascading extra render.
-  const handleSelectHashtag = (value: string | null) => {
+  const handleSelectHashtag = (value: number | null) => {
     setHashtag(value);
     setIndex(0);
   };
-  const handleSelectDepartment = (value: string | null) => {
+  const handleSelectDepartment = (value: number | null) => {
     setDepartment(value);
     setIndex(0);
   };
@@ -96,13 +86,16 @@ export default function HighlightSection() {
             <div className="flex items-center gap-2">
               <HighlightFilterDropdown
                 label={t("kudosBoard:highlight.filters.hashtag")}
-                options={hashtagFilterOptions}
+                options={SAA_HASHTAGS.map((item) => ({
+                  ...item,
+                  label: `#${item.label}`,
+                }))}
                 selected={hashtag}
                 onSelect={handleSelectHashtag}
               />
               <HighlightFilterDropdown
                 label={t("kudosBoard:highlight.filters.department")}
-                options={highlightDepartmentOptions}
+                options={DEPARTMENTS}
                 selected={department}
                 onSelect={handleSelectDepartment}
               />

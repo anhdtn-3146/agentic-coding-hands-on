@@ -14,11 +14,12 @@ import CustomSvgIcon from "../common/custom-svg-icon";
 export default function WriteKudosBar() {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
+  const [keyword, setKeyword] = useState("");
 
   return (
     <>
       {/* mm:2940:13449 */}
-      <div className="mx-auto w-full max-w-[1152px] px-6 lg:px-0">
+      <div className="flex items-center gap-4 mx-auto w-full max-w-[1152px] px-6 lg:px-0">
         <button
           type="button"
           onClick={() => setOpen(true)}
@@ -38,6 +39,20 @@ export default function WriteKudosBar() {
             </span>
           </span>
         </button>
+        <div className="relative w-[381px]">
+          <CustomSvgIcon
+            src="/icons/search.svg"
+            className="pointer-events-none absolute top-1/2 left-4 h-8 w-8 text-white -translate-y-1/2"
+          />
+
+          <input
+            type="text"
+            value={keyword}
+            onChange={(e) => setKeyword(e.target.value)}
+            placeholder={t("kudosBoard:searchProfile.placeholder")}
+            className="h-20 w-full rounded-[68px] border border-[#998C5F] bg-[#FFEA9E]/10 pr-6 pl-14 font-(family-name:--font-montserrat) text-base text-white placeholder:text-white/60 outline-none transition-colors focus:border-[#FFEA9E] focus:bg-[#FFEA9E]/20"
+          />
+        </div>
       </div>
 
       <KudosFormModal open={open} onClose={() => setOpen(false)} />
