@@ -32,14 +32,19 @@ export default function SpotlightBoard() {
   const [pan, setPan] = useState({ x: 0, y: 0 });
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [zoomControlsOpen, setZoomControlsOpen] = useState(false);
-  const dragState = useRef<{ startX: number; startY: number; panX: number; panY: number } | null>(
-    null,
-  );
+  const dragState = useRef<{
+    startX: number;
+    startY: number;
+    panX: number;
+    panY: number;
+  } | null>(null);
 
   const filteredNames = useMemo(() => {
     const query = searchTerm.trim().toLowerCase();
     if (!query) return SPOTLIGHT_NAMES;
-    return SPOTLIGHT_NAMES.filter((item) => item.name.toLowerCase().includes(query));
+    return SPOTLIGHT_NAMES.filter((item) =>
+      item.name.toLowerCase().includes(query),
+    );
   }, [searchTerm]);
 
   const clampPan = (value: { x: number; y: number }, currentZoom: number) => {
@@ -53,7 +58,12 @@ export default function SpotlightBoard() {
 
   const handlePointerDown = (event: PointerEvent<HTMLDivElement>) => {
     if (zoom <= 1) return;
-    dragState.current = { startX: event.clientX, startY: event.clientY, panX: pan.x, panY: pan.y };
+    dragState.current = {
+      startX: event.clientX,
+      startY: event.clientY,
+      panX: pan.x,
+      panY: pan.y,
+    };
     event.currentTarget.setPointerCapture(event.pointerId);
   };
 
@@ -61,7 +71,12 @@ export default function SpotlightBoard() {
     if (!dragState.current) return;
     const dx = event.clientX - dragState.current.startX;
     const dy = event.clientY - dragState.current.startY;
-    setPan(clampPan({ x: dragState.current.panX + dx, y: dragState.current.panY + dy }, zoom));
+    setPan(
+      clampPan(
+        { x: dragState.current.panX + dx, y: dragState.current.panY + dy },
+        zoom,
+      ),
+    );
   };
 
   const stopDragging = () => {
@@ -85,7 +100,7 @@ export default function SpotlightBoard() {
 
       {/* mm:2940:14833 B.7.3_Tìm kiếm sunner */}
       <div className="absolute top-6 left-6 z-20 flex items-center gap-2 rounded-full border border-[#998C5F]/70 bg-[#FFEA9E]/10 px-3 py-2">
-        <CustomSvgIcon src="/kudos/icons/search.svg" className="h-3 w-3 text-white" />
+        <CustomSvgIcon src="/icons/search.svg" className="h-3 w-3 text-white" />
         <input
           type="text"
           value={searchTerm}
@@ -105,7 +120,9 @@ export default function SpotlightBoard() {
       {/* Name cloud — draggable when zoomed in */}
       <div
         className={`absolute inset-0 touch-none ${zoom > 1 ? "cursor-grab active:cursor-grabbing" : ""}`}
-        style={{ transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})` }}
+        style={{
+          transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`,
+        }}
         onPointerDown={handlePointerDown}
         onPointerMove={handlePointerMove}
         onPointerUp={stopDragging}

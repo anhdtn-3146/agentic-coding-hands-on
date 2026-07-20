@@ -34,7 +34,7 @@ export interface KudoPost {
   /** `C.3.6_Image đính kèm` — up to 5 attachment thumbnails. */
   attachments: string[];
   /** `C.3.7_Hash tag` split into individual chips, e.g. ["Dedicated", "Inspring", ...]. */
-  hashtags: string[];
+  hashtags: number[];
   /** `C.4.1_Hearts` initial count — design shows "1.000" (vi-VN grouping) for every post. */
   likeCount: number;
 }
@@ -46,12 +46,9 @@ const ATTACHMENT_SAMPLE = "/kudos/feed/attachment-sample.png";
 const MESSAGE =
   "Cảm ơn người em bình thường nhưng phi thường :D Cảm ơn sự chăm chỉ, cần mẫn của em đã tạo động lực rất nhiều cho team, để luôn nhắc mình luôn phải nỗ lực hơn nữa trong công việc. <3 và cuộc sống...";
 
-// "#Dedicated #Inspring #Dedicated #Inspring #Dedicated  #Inspring..." (C.3.7) split into chips.
-const HASHTAGS = ["Dedicated", "Inspring", "Dedicated", "Inspring", "Dedicated", "Inspring"];
-
 const RECEIVER: KudosPerson = {
   name: "Huỳnh Dương Xuân",
-  dept: "CEVC10",
+  dept: "CEVC1",
   avatar: RECEIVER_AVATAR,
   badge: "legend",
   badgeLabel: "Legend Hero",
@@ -60,7 +57,7 @@ const RECEIVER: KudosPerson = {
 function sender(badge: HeroBadgeType, badgeLabel: string): KudosPerson {
   return {
     name: "Huỳnh Dương Xuân Nhật",
-    dept: "CEVC10",
+    dept: "CEVC1",
     avatar: SENDER_AVATAR,
     badge,
     badgeLabel,
@@ -77,7 +74,7 @@ const BASE_POSTS: readonly KudoPost[] = [
     category: "IDOL GIỚI TRẺ",
     message: MESSAGE,
     attachments: Array(5).fill(ATTACHMENT_SAMPLE),
-    hashtags: HASHTAGS,
+    hashtags: [1, 2],
     likeCount: 1000,
   },
   {
@@ -88,7 +85,7 @@ const BASE_POSTS: readonly KudoPost[] = [
     category: "IDOL GIỚI TRẺ",
     message: MESSAGE,
     attachments: Array(5).fill(ATTACHMENT_SAMPLE),
-    hashtags: HASHTAGS,
+    hashtags: [1, 2, 3, 4, 5],
     likeCount: 1000,
   },
   {
@@ -99,7 +96,7 @@ const BASE_POSTS: readonly KudoPost[] = [
     category: "IDOL GIỚI TRẺ",
     message: MESSAGE,
     attachments: Array(5).fill(ATTACHMENT_SAMPLE),
-    hashtags: HASHTAGS,
+    hashtags: [1],
     likeCount: 1000,
   },
   {
@@ -110,7 +107,7 @@ const BASE_POSTS: readonly KudoPost[] = [
     category: "IDOL GIỚI TRẺ",
     message: MESSAGE,
     attachments: Array(5).fill(ATTACHMENT_SAMPLE),
-    hashtags: HASHTAGS,
+    hashtags: [3],
     likeCount: 1000,
   },
 ];
@@ -164,11 +161,14 @@ export interface LeaderboardEntry {
 const LEADERBOARD_AVATAR = "/kudos/feed/leaderboard-avatar.png";
 
 /** `D.3_10 SUNNER nhận quà` — 5 entries visible in the design (title says "10", scrollable). */
-export const GIFT_LEADERBOARD: readonly LeaderboardEntry[] = Array.from({ length: 5 }, () => ({
-  name: "Huỳnh Dương Xuân",
-  description: "Nhận được 1 áo phông SAA",
-  avatar: LEADERBOARD_AVATAR,
-}));
+export const GIFT_LEADERBOARD: readonly LeaderboardEntry[] = Array.from(
+  { length: 5 },
+  () => ({
+    name: "Huỳnh Dương Xuân",
+    description: "Nhận được 1 áo phông SAA",
+    avatar: LEADERBOARD_AVATAR,
+  }),
+);
 
 /**
  * "10 SUNNER CÓ SỰ THĂNG HẠNG MỚI NHẤT" has no corresponding box in this

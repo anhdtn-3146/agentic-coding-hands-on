@@ -6,6 +6,9 @@
   "writeBar": {
     "placeholder": "Who would you like to thank and recognize today?"
   },
+  "searchProfile": {
+    "placeholder": "Search profile Sunner"
+  },
   "highlight": {
     "eyebrow": "Sun* Annual Awards 2025",
     "title": "HIGHLIGHT KUDOS",
@@ -27,4 +30,3 @@
     }
   }
 }
-

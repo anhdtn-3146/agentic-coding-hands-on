@@ -1,9 +1,9 @@
-export interface SaaHashtag {
+export interface IOption {
   label: string;
   value: number;
 }
 
-export const SAA_HASHTAGS: readonly SaaHashtag[] = [
+export const SAA_HASHTAGS: IOption[] = [
   { label: "High-performing", value: 1 },
   { label: "Be Professional", value: 2 },
   { label: "Be Optimistic", value: 3 },
@@ -14,9 +14,20 @@ export const SAA_HASHTAGS: readonly SaaHashtag[] = [
   { label: "Wasshoi", value: 8 },
 ];
 
+export const DEPARTMENTS: IOption[] = [
+  { label: "CEVC1", value: 1 },
+  { label: "CEVC2", value: 2 },
+  { label: "CEVC3", value: 3 },
+  { label: "CEVC4", value: 4 },
+];
+
 /** Look up a hashtag's display label by its numeric id (fallback: empty string). */
 export function saaHashtagLabel(value: number): string {
   return SAA_HASHTAGS.find((h) => h.value === value)?.label ?? "";
+}
+
+export function departmentLabel(value: number): string {
+  return DEPARTMENTS.find((h) => h.value === value)?.label ?? "";
 }
 
 export interface NavRoute {

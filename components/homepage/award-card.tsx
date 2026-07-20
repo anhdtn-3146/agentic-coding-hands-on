@@ -6,6 +6,7 @@ import CustomSvgIcon from "@/components/common/custom-svg-icon";
 
 export interface AwardCardData {
   nodeId: string;
+  itemKey: string;
   title: string;
   description: string;
   bgImg: string;
@@ -28,6 +29,7 @@ export interface AwardCardData {
 export default function AwardCard({
   title,
   description,
+  itemKey,
   bgImg,
   nameImg,
   nameImgWidth,
@@ -41,7 +43,7 @@ export default function AwardCard({
     // and its "Chi tiết" link scroll to the awards section (#awards).
     // Hover lift + brighter glow per spec ("nâng nhẹ và viền/ánh sáng nổi bật").
     <a
-      href="#awards"
+      href={`/award-info#${itemKey}`}
       className="group flex w-[336px] flex-col items-start gap-6 transition-transform duration-200 ease-out hover:-translate-y-1.5"
     >
       {/* mm:81:2443 Picture-Award */}
@@ -53,7 +55,12 @@ export default function AwardCard({
         <Image src={bgImg} alt="" fill className="object-cover" />
         {/* mm:214:666 Awards-Name badge, centered */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <Image src={nameImg} alt={title} width={nameImgWidth} height={nameImgHeight} />
+          <Image
+            src={nameImg}
+            alt={title}
+            width={nameImgWidth}
+            height={nameImgHeight}
+          />
         </div>
       </div>
 

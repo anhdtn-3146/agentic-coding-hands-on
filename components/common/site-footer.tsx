@@ -47,11 +47,15 @@ export default function SiteFooter() {
   return (
     // mm:5001:14800
     <footer className="w-full border-t border-[#2E3940] bg-[#00101A] px-22.5 py-10">
-      <div className="mx-auto flex w-full max-w-[1224px] items-center justify-between gap-8">
+      <div className="flex w-full items-center justify-between gap-8">
         {/* mm:I5001:14800;342:1407 */}
         <div className="flex items-center gap-20">
           {/* mm:I5001:14800;342:1408 */}
-          <Link href="/about" aria-label="Sun* Annual Awards 2025 home" className="h-16 w-[69px]">
+          <Link
+            href="/about"
+            aria-label="Sun* Annual Awards 2025 home"
+            className="h-16 w-[69px]"
+          >
             {/* mm:I5001:14800;342:1408;178:1030 */}
             <Image
               src="/homepage-saa/Footer_Logo.png"
@@ -61,7 +65,9 @@ export default function SiteFooter() {
             />
           </Link>
           {/* mm:I5001:14800;342:1409 — route links, active = current page */}
-          <nav className={`${montserrat.className} flex items-center gap-12 whitespace-nowrap`}>
+          <nav
+            className={`${montserrat.className} flex items-center gap-12 whitespace-nowrap`}
+          >
             {FOOTER_LINKS.map(({ key, url, matchActive }, index) => {
               const isActive = matchActive && pathname === url;
               return (
@@ -79,7 +85,9 @@ export default function SiteFooter() {
         </div>
 
         {/* mm:I5001:14800;342:1413 */}
-        <p className={`${montserratAlternates.className} text-center text-base leading-6 font-bold text-white`}>
+        <p
+          className={`${montserratAlternates.className} text-center text-base leading-6 font-bold text-white`}
+        >
           {t("common:copyright")}
         </p>
       </div>

@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import CustomSvgIcon from "@/components/common/custom-svg-icon";
 import HeroBadge from "@/components/common/hero-badge";
 import type { HighlightKudo, HighlightPerson } from "./highlight-mock-data";
+import { departmentLabel, saaHashtagLabel } from "@/constants";
 
 export interface HighlightKudoCardProps {
   kudo: HighlightKudo;
@@ -37,7 +38,7 @@ function PersonInfo({ person }: { person: HighlightPerson }) {
         {/* mm:I2940:13465;335:9443;256:4741 Huy hiệu + Sao */}
         <div className="flex items-center justify-center gap-2.5">
           <span className="font-(family-name:--font-montserrat) text-sm leading-5 font-bold tracking-[0.1px] text-[#999999]">
-            {person.department}
+            {departmentLabel(person.department)}
           </span>
           <span
             aria-hidden
@@ -64,7 +65,7 @@ export default function HighlightKudoCard({
   const likes = kudo.likes + (liked ? 1 : 0);
 
   const hashtagLine =
-    kudo.hashtags.map((h) => `#${h}`).join(" ") +
+    kudo.hashtags.map((h) => `#${saaHashtagLabel(h)}`).join(" ") +
     (kudo.hashtagsOverflow ? "..." : "");
 
   return (

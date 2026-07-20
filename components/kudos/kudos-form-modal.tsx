@@ -7,6 +7,7 @@ import KudosRecipientSelect from "./kudos-recipient-select";
 import KudosContentEditor from "./kudos-content-editor";
 import KudosHashtagInput from "./kudos-hashtag-input";
 import KudosImageUpload, { type KudosImagePreview } from "./kudos-image-upload";
+import { KudoPost } from "../kudos-board/feed-mock-data";
 
 const montserrat = Montserrat({
   subsets: ["latin", "vietnamese"],
@@ -16,6 +17,7 @@ const montserrat = Montserrat({
 export interface KudosFormModalProps {
   open: boolean;
   onClose: () => void;
+  initialValues?: KudoPost;
 }
 
 interface KudosFormState {
@@ -61,7 +63,11 @@ function FieldLabel({
  * validates the required fields, shows a brief success message, then closes
  * and resets the draft.
  */
-export default function KudosFormModal({ open, onClose }: KudosFormModalProps) {
+export default function KudosFormModal({
+  open,
+  onClose,
+  initialValues,
+}: KudosFormModalProps) {
   const { t } = useTranslation();
   const [form, setForm] = useState<KudosFormState>(INITIAL_FORM);
   const [submitted, setSubmitted] = useState(false);
@@ -105,6 +111,27 @@ export default function KudosFormModal({ open, onClose }: KudosFormModalProps) {
     document.addEventListener("keydown", onKey);
     return () => document.removeEventListener("keydown", onKey);
   });
+
+  useEffect(() => {
+    if (!open) return;
+
+    if (!initialValues) {
+      setForm(INITIAL_FORM);
+      return;
+    }
+
+    setForm({
+      recipient: initialValues.receiver.name,
+      danhHieu: initialValues.category,
+      content: initialValues.message,
+      hashtags: initialValues.hashtags,
+      images: initialValues.attachments.map((item) => ({
+        url: item,
+        file: undefined,
+      })),
+      anonymous: false,
+    });
+  }, [open, initialValues]);
 
   const handleSubmit = () => {
     if (!isValid) return;
